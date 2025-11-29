@@ -431,15 +431,6 @@ function CatalystInnovations() {
                 <p>{t.about.p3}</p>
                 <p>{t.about.p4}</p>
               </div>
-              
-              {/* Professional Photo */}
-              <div className="mt-8">
-                <img 
-                  src="./galena-photo.jpg" 
-                  alt="Galena Schouten" 
-                  className="w-full max-w-md rounded-sm shadow-lg"
-                />
-              </div>
             </div>
             
             <div className="space-y-8">
@@ -777,8 +768,18 @@ function CatalystInnovations() {
       <footer className="bg-gray-900 text-white py-12 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex items-center justify-center mb-6">
-            <img src="./logo.jpg" alt="Catalyst Innovation Logo" className="h-12 w-auto brightness-0 invert" />
-            <span className="ml-3 text-xl font-light tracking-wide">CATALYST INNOVATION</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" className="h-12 w-auto">
+              <!-- Box -->
+              <rect x="10" y="20" width="60" height="60" fill="none" stroke="#ffffff" strokeWidth="5" rx="3"/>
+              <!-- Arrow -->
+              <path d="M 20 70 L 60 30" stroke="#ffffff" strokeWidth="5" strokeLinecap="round"/>
+              <!-- Arrow head -->
+              <path d="M 48 30 L 60 30 L 60 42" fill="none" stroke="#ffffff" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+              <!-- Text CATALYST -->
+              <text x="85" y="50" fill="#ffffff" fontSize="24" fontWeight="600" fontFamily="Arial, sans-serif">CATALYST</text>
+              <!-- Text INNOVATION -->
+              <text x="85" y="72" fill="#ffffff" fontSize="24" fontWeight="300" fontFamily="Arial, sans-serif">INNOVATION</text>
+            </svg>
           </div>
           <p className="text-gray-400 mb-4 font-light">{t.footer.tagline}</p>
           <p className="text-gray-600 text-sm">{t.footer.copyright}</p>
