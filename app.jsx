@@ -161,7 +161,7 @@ function CatalystInnovations() {
         education: 'ОБРАЗОВАНИЕ',
         mba: 'MBA Innovation Management',
         location: 'SUPSI, Швейцария',
-        economics: 'Икономика и Управление',
+        economics: 'Икономикаи Управление',
         uniMilano: 'Università degli Studi di Milano-Bicocca',
         linkedin: 'LINKEDIN',
         connect: 'Свържете се с мен'
@@ -769,15 +769,10 @@ function CatalystInnovations() {
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex items-center justify-center mb-6">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" className="h-12 w-auto">
-              <!-- Box -->
               <rect x="10" y="20" width="60" height="60" fill="none" stroke="#ffffff" strokeWidth="5" rx="3"/>
-              <!-- Arrow -->
               <path d="M 20 70 L 60 30" stroke="#ffffff" strokeWidth="5" strokeLinecap="round"/>
-              <!-- Arrow head -->
               <path d="M 48 30 L 60 30 L 60 42" fill="none" stroke="#ffffff" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
-              <!-- Text CATALYST -->
               <text x="85" y="50" fill="#ffffff" fontSize="24" fontWeight="600" fontFamily="Arial, sans-serif">CATALYST</text>
-              <!-- Text INNOVATION -->
               <text x="85" y="72" fill="#ffffff" fontSize="24" fontWeight="300" fontFamily="Arial, sans-serif">INNOVATION</text>
             </svg>
           </div>
