@@ -338,13 +338,7 @@ function CatalystInnovations() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
-              <div className="flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" className="h-10 w-10">
-                  <rect x="10" y="10" width="60" height="60" fill="none" stroke="#455a64" strokeWidth="6" rx="4"/>
-                  <path d="M 20 60 L 70 20" stroke="#455a64" strokeWidth="6" strokeLinecap="round"/>
-                  <path d="M 55 20 L 70 20 L 70 35" fill="none" stroke="#455a64" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </div>
+              <img src="./logo.jpg" alt="Catalyst Innovation Logo" className="h-12 w-auto" />
               <span className="ml-3 text-2xl font-light tracking-wide text-gray-900">CATALYST INNOVATION</span>
             </div>
             
@@ -436,6 +430,15 @@ function CatalystInnovations() {
                 <p>{t.about.p2}</p>
                 <p>{t.about.p3}</p>
                 <p>{t.about.p4}</p>
+              </div>
+              
+              {/* Professional Photo */}
+              <div className="mt-8">
+                <img 
+                  src="./galena-photo.jpg" 
+                  alt="Galena Schouten" 
+                  className="w-full max-w-md rounded-sm shadow-lg"
+                />
               </div>
             </div>
             
@@ -774,11 +777,7 @@ function CatalystInnovations() {
       <footer className="bg-gray-900 text-white py-12 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex items-center justify-center mb-6">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" className="h-10 w-10">
-              <rect x="10" y="10" width="60" height="60" fill="none" stroke="#ffffff" strokeWidth="6" rx="4"/>
-              <path d="M 20 60 L 70 20" stroke="#ffffff" strokeWidth="6" strokeLinecap="round"/>
-              <path d="M 55 20 L 70 20 L 70 35" fill="none" stroke="#ffffff" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
+            <img src="./logo.jpg" alt="Catalyst Innovation Logo" className="h-12 w-auto brightness-0 invert" />
             <span className="ml-3 text-xl font-light tracking-wide">CATALYST INNOVATION</span>
           </div>
           <p className="text-gray-400 mb-4 font-light">{t.footer.tagline}</p>
