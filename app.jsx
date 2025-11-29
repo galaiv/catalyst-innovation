@@ -161,7 +161,7 @@ function CatalystInnovations() {
         education: 'ОБРАЗОВАНИЕ',
         mba: 'MBA Innovation Management',
         location: 'SUPSI, Швейцария',
-        economics: 'Икономика',
+        economics: 'Икономика и Управление',
         uniMilano: 'Università degli Studi di Milano-Bicocca',
         linkedin: 'LINKEDIN',
         connect: 'Свържете се с мен'
@@ -256,7 +256,7 @@ function CatalystInnovations() {
         education: 'EDUCATION',
         mba: 'MBA Innovation Management',
         location: 'SUPSI, Switzerland',
-        economics: 'Economics',
+        economics: 'Economics and Management',
         uniMilano: 'Università degli Studi di Milano-Bicocca',
         linkedin: 'LINKEDIN',
         connect: 'Connect with me'
@@ -792,8 +792,3 @@ function CatalystInnovations() {
 // Render the app
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<CatalystInnovations />);
-                   
-                    
-                    
-               
-     
