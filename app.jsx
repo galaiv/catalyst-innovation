@@ -161,7 +161,7 @@ function CatalystInnovations() {
         education: 'ОБРАЗОВАНИЕ',
         mba: 'MBA Innovation Management',
         location: 'SUPSI, Швейцария',
-        economics: 'Икономикаи Управление',
+        economics: 'Икономика и Управление',
         uniMilano: 'Università degli Studi di Milano-Bicocca',
         linkedin: 'LINKEDIN',
         connect: 'Свържете се с мен'
