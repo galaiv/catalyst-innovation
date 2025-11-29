@@ -87,24 +87,6 @@ function CatalystInnovations() {
       category: 'leadership',
       date: '2025-10-15',
       image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80'
-    },
-    {
-      id: 5,
-      title: {
-        bg: 'Case Study: Как една средна производствена компания увеличи efficiency с 40% без да купи нова машина',
-        en: 'Case Study: How a Mid-Size Manufacturing Company Increased Efficiency by 40% Without Buying New Equipment'
-      },
-      excerpt: {
-        bg: 'Реална история на трансформация: от съпротива към промяна до измерими резултати за 6 месеца.',
-        en: 'A real transformation story: from resistance to change to measurable results in 6 months.'
-      },
-      content: {
-        bg: 'Миналата година работих с производствена компания с 150 служители в Северна България. Собственикът искаше да инвестира 2 милиона евро в нови машини за да увеличи производителността.\n\nПопитах го: "Колко процента от капацитета на сегашните машини използвате?"\n\n"Не съм сигурен," отговори той.\n\nНаправихме assessment. Резултатът: използваха 35% от капацитета на съществуващото оборудване.\n\nПроблемът не беше в машините. Проблемът беше в:\n• Липса на дигитализация на производствените процеси\n• Неефективна комуникация между отделите\n• Остаряла организация на работния процес\n• Липса на real-time данни за вземане на решения\n\nВместо да купуват нови машини, започнахме трансформационен процес:\n\nМесец 1-2: Assessment и подготовка\n• Детайлно измерване на текущите процеси\n• Идентифициране на bottlenecks\n• Обучение на ключови хора\n\nМесец 3-4: Pilot проект\n• Дигитализация на една производствена линия\n• Внедряване на real-time monitoring\n• Оптимизация на работния процес\n\nМесец 5-6: Scale-up\n• Разширяване на успешните практики\n• Обучение на всички служители\n• Continuous improvement процеси\n\nРезултати след 6 месеца:\n• 40% увеличение на производителността\n• 25% намаление на дефекти\n• 30% подобрение в on-time delivery\n• ROI на инвестицията: 8 месеца\n\nОбща инвестиция: 150,000 евро вместо 2 милиона.\n\nУрокът? Преди да купите нова технология, оптимизирайте това което имате. Резултатите често са по-добри и много по-бързи.',
-        en: 'Last year I worked with a manufacturing company of 150 employees in Northern Bulgaria. The owner wanted to invest 2 million euros in new machines to increase productivity.\n\nI asked him: "What percentage of your current machines\' capacity are you using?"\n\n"I\'m not sure," he replied.\n\nWe did an assessment. Result: they were using 35% of existing equipment capacity.\n\nThe problem wasn\'t the machines. The problem was:\n• Lack of digitalization of manufacturing processes\n• Inefficient communication between departments\n• Outdated work process organization\n• Lack of real-time data for decision making\n\nInstead of buying new machines, we started a transformation process:\n\nMonth 1-2: Assessment and preparation\n• Detailed measurement of current processes\n• Identification of bottlenecks\n• Training of key people\n\nMonth 3-4: Pilot project\n• Digitalization of one production line\n• Implementation of real-time monitoring\n• Work process optimization\n\nMonth 5-6: Scale-up\n• Expansion of successful practices\n• Training of all employees\n• Continuous improvement processes\n\nResults after 6 months:\n• 40% increase in productivity\n• 25% reduction in defects\n• 30% improvement in on-time delivery\n• ROI on investment: 8 months\n\nTotal investment: 150,000 euros instead of 2 million.\n\nThe lesson? Before buying new technology, optimize what you have. Results are often better and much faster.'
-      },
-      category: 'caseStudy',
-      date: '2025-09-20',
-      image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=800&q=80'
     }
   ]);
 
@@ -668,16 +650,6 @@ function CatalystInnovations() {
                 >
                   {t.blog.industry40}
                 </button>
-                <button
-                  onClick={() => setSelectedCategory('caseStudy')}
-                  className={`px-6 py-2 text-sm font-medium transition ${
-                    selectedCategory === 'caseStudy'
-                      ? 'bg-gray-900 text-white'
-                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                  }`}
-                >
-                  {t.blog.caseStudy}
-                </button>
               </div>
 
               {/* Articles Grid */}
@@ -741,7 +713,7 @@ function CatalystInnovations() {
           <div className="grid md:grid-cols-2 gap-8 text-left mb-12">
             <div className="border-l-2 border-gray-900 pl-6">
               <p className="text-sm text-gray-400 mb-2">{t.contact.email}</p>
-              <p className="text-lg text-gray-900">galena.schouten@catalystinnovation.bg</p>
+              <p className="text-lg text-gray-900">galena.schouten@catalystinnovations.eu</p>
             </div>
             <div className="border-l-2 border-gray-900 pl-6">
               <p className="text-sm text-gray-400 mb-2">{t.contact.phone}</p>
