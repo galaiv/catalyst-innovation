@@ -14,25 +14,97 @@ function CatalystInnovations() {
     }
   }, [selectedArticle, selectedCategory, isMenuOpen, language]);
 
-  // Sample articles - you'll replace this with your actual content
+  // Blog articles with relevant content
   const [articles, setArticles] = useState([
     {
       id: 1,
       title: {
-        bg: 'Бъдещето на Индустрия 4.0 в България',
-        en: 'The Future of Industry 4.0 in Bulgaria'
+        bg: 'Защо технологията не е достатъчна: Уроци от модната индустрия за производствените компании',
+        en: 'Why Technology Isn\'t Enough: Lessons from Fashion Industry for Manufacturing Companies'
       },
       excerpt: {
-        bg: 'Как българските компании могат да се възползват от дигиталната трансформация и какви са предизвикателствата пред тях.',
-        en: 'How Bulgarian companies can benefit from digital transformation and what challenges they face.'
+        bg: 'Дигиталната трансформация не е само въпрос на технология. От подиума на Milano до производствените цехове в България - как културата определя успеха.',
+        en: 'Digital transformation isn\'t just about technology. From Milano runways to Bulgarian manufacturing floors - how culture determines success.'
       },
       content: {
-        bg: 'Пълно съдържание на статията на български...',
-        en: 'Full article content in English...'
+        bg: 'През годините си в модната индустрия, работейки с някои от най-престижните марки като Giorgio Armani, научих нещо фундаментално: технологията е лесната част. Истинското предизвикателство е да трансформираш хората, културата и начина на мислене.\n\nДнес, когато консултирам производствени компании в България за Индустрия 4.0 и дигитална трансформация, виждам същата грешка отново и отново. Компаниите инвестират милиони в нови машини, софтуер и технологии, но използват само 20-30% от капацитета им.\n\nЗащо?\n\nЗащото купуват технология, но не инвестират в хората. Внедряват системи, но не променят културата. Модернизират оборудването, но запазват старите начини на мислене.\n\nОт модната индустрия научих, че иновацията не се случва в заседателните зали или в технологичните спецификации. Тя се случва когато хората са готови да мислят различно, да експериментират, да приемат грешките като част от процеса на учене.\n\nУспехът на една дигитална трансформация зависи 10% от технологията и 90% от хората, лидерството и културата. Това не е красива фраза - това е реалност, която виждам всеки ден в работата си с производствени компании.\n\nАко вашата компания иска да успее в Индустрия 4.0, започнете не с избора на технология, а с подготовката на вашите хора и трансформацията на вашата култура.',
+        en: 'During my years in the fashion industry, working with some of the most prestigious brands like Giorgio Armani, I learned something fundamental: technology is the easy part. The real challenge is transforming people, culture, and mindset.\n\nToday, when I consult manufacturing companies in Bulgaria on Industry 4.0 and digital transformation, I see the same mistake repeated. Companies invest millions in new machines, software, and technology, but use only 20-30% of their capacity.\n\nWhy?\n\nBecause they buy technology but don\'t invest in people. They implement systems but don\'t change culture. They modernize equipment but keep old ways of thinking.\n\nFrom the fashion industry, I learned that innovation doesn\'t happen in boardrooms or technical specifications. It happens when people are ready to think differently, to experiment, to accept mistakes as part of the learning process.\n\nThe success of digital transformation depends 10% on technology and 90% on people, leadership, and culture. This isn\'t a nice phrase - it\'s a reality I see every day working with manufacturing companies.\n\nIf your company wants to succeed in Industry 4.0, start not with choosing technology, but with preparing your people and transforming your culture.'
+      },
+      category: 'leadership',
+      date: '2025-11-15',
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      id: 2,
+      title: {
+        bg: 'Open Innovation: Как малките и средни компании могат да конкурират глобалните гиганти',
+        en: 'Open Innovation: How SMEs Can Compete with Global Giants'
+      },
+      excerpt: {
+        bg: 'Бъдещето не принадлежи на компаниите с най-много ресурси, а на тези които умеят да си сътрудничат. Защо Open Innovation е ключът към успеха.',
+        en: 'The future doesn\'t belong to companies with the most resources, but to those who know how to collaborate. Why Open Innovation is the key to success.'
+      },
+      content: {
+        bg: 'Една от най-големите заблуди в бизнеса е, че иновациите трябва да идват отвътре. Че трябва да имаш огромен R&D отдел, милиони за изследвания, и армия от инженери.\n\nРеалността е различна.\n\nНай-иновативните компании днес не са тези с най-големите бюджети за R&D. Те са компаниите, които умеят да създават екосистеми - да си партнират със стартъпи, да колаборират с университети, да интегрират външни иновации във вътрешните си процеси.\n\nТова е Open Innovation.\n\nЗа производствените компании в България това означава огромна възможност. Не трябва да конкурирате German Mittelstand на техния терен. Вместо това, можете да създадете иновационна екосистема, където:\n\n• Партнирате с локални стартъпи за дигитални решения\n• Колаборирате с университети за R&D проекти\n• Интегрирате се в международни мрежи за знания и технологии\n• Споделяте ресурси с други компании за взаимна полза\n\nOpen Innovation не е само за технологични компании. То е стратегия за всяка компания, която иска да остане конкурентна в бързо променящия се свят.\n\nВъпросът не е дали имате ресурсите на голяма корпорация. Въпросът е дали имате гъвкавостта и отвореността да си сътрудничите с правилните партньори.',
+        en: 'One of the biggest misconceptions in business is that innovation must come from within. That you need a huge R&D department, millions for research, and an army of engineers.\n\nThe reality is different.\n\nThe most innovative companies today aren\'t those with the biggest R&D budgets. They\'re companies that know how to create ecosystems - to partner with startups, collaborate with universities, integrate external innovations into internal processes.\n\nThis is Open Innovation.\n\nFor manufacturing companies in Bulgaria, this means enormous opportunity. You don\'t have to compete with German Mittelstand on their turf. Instead, you can create an innovation ecosystem where:\n\n• You partner with local startups for digital solutions\n• You collaborate with universities for R&D projects\n• You integrate into international networks for knowledge and technology\n• You share resources with other companies for mutual benefit\n\nOpen Innovation isn\'t just for tech companies. It\'s a strategy for any company that wants to stay competitive in a rapidly changing world.\n\nThe question isn\'t whether you have the resources of a large corporation. The question is whether you have the flexibility and openness to collaborate with the right partners.'
+      },
+      category: 'innovation',
+      date: '2025-10-28',
+      image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      id: 3,
+      title: {
+        bg: 'Индустрия 4.0 в България: Реалност, предизвикателства и възможности',
+        en: 'Industry 4.0 in Bulgaria: Reality, Challenges and Opportunities'
+      },
+      excerpt: {
+        bg: 'Къде е България в пътя към Индустрия 4.0? Какви са реалните предизвикателства и как българските компании могат да ги превърнат във възможности.',
+        en: 'Where is Bulgaria on the path to Industry 4.0? What are the real challenges and how can Bulgarian companies turn them into opportunities.'
+      },
+      content: {
+        bg: 'България има уникална позиция в контекста на Индустрия 4.0. От една страна, имаме силна производствена традиция и квалифицирана работна ръка. От друга - изоставаме в дигитализацията спрямо Западна Европа.\n\nНо това не е недостатък. Това е възможност.\n\nДокато западноевропейските компании се борят с legacy системи и съпротива срещу промяна от дългогодишни служители, българските компании могат да направят скока директно към най-новите технологии. Можем да избегнем техните грешки и да приложим техните lessons learned.\n\nРеалните предизвикателства пред българските производствени компании не са технологични:\n\n1. Липса на дигитални компетенции в ръководството\nМного управители разбират производството, но не разбират дигиталната трансформация.\n\n2. Краткосрочно мислене\nИнвестициите в Индустрия 4.0 се изплащат след години, не след месеци.\n\n3. Културна съпротива\nХората се страхуват, че технологията ще ги замени, вместо да ги направи по-ефективни.\n\n4. Липса на екосистема\nКомпаниите действат изолирано, вместо да си сътрудничат.\n\nНо всяко от тези предизвикателства е преодолимо. С правилния подход, българските компании могат не просто да наваксат, а да станат лидери в определени области на Индустрия 4.0.\n\nКлючът е да започнем не с технологията, а с хората и стратегията.',
+        en: 'Bulgaria has a unique position in the context of Industry 4.0. On one hand, we have a strong manufacturing tradition and skilled workforce. On the other - we lag behind Western Europe in digitalization.\n\nBut this isn\'t a disadvantage. It\'s an opportunity.\n\nWhile Western European companies struggle with legacy systems and resistance to change from long-term employees, Bulgarian companies can make the leap directly to the latest technologies. We can avoid their mistakes and apply their lessons learned.\n\nThe real challenges facing Bulgarian manufacturing companies aren\'t technological:\n\n1. Lack of digital competencies in leadership\nMany managers understand manufacturing but don\'t understand digital transformation.\n\n2. Short-term thinking\nInvestments in Industry 4.0 pay off after years, not months.\n\n3. Cultural resistance\nPeople fear that technology will replace them instead of making them more effective.\n\n4. Lack of ecosystem\nCompanies act in isolation instead of collaborating.\n\nBut each of these challenges is surmountable. With the right approach, Bulgarian companies can not just catch up, but become leaders in certain areas of Industry 4.0.\n\nThe key is to start not with technology, but with people and strategy.'
       },
       category: 'industry40',
-      date: '2026-01-15',
+      date: '2025-11-01',
       image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      id: 4,
+      title: {
+        bg: 'От Vision към Reality: Как да трансформирате иновационната стратегия в резултати',
+        en: 'From Vision to Reality: How to Transform Innovation Strategy into Results'
+      },
+      excerpt: {
+        bg: 'Всяка компания има визия. Малко имат резултати. Каква е разликата между успешните и неуспешните иновационни инициативи?',
+        en: 'Every company has a vision. Few have results. What\'s the difference between successful and unsuccessful innovation initiatives?'
+      },
+      content: {
+        bg: 'Работила съм с десетки компании които имат "иновационна стратегия". Красиви презентации, амбициозни планове, впечатляващи бюджети.\n\nНо след година? Нищо.\n\nПроблемът не е в липсата на визия. Проблемът е в execution gap-а - разликата между това което планираме и това което реално постигаме.\n\nТова което разделя успешните от неуспешните иновационни инициативи не е качеството на стратегията. То е:\n\n1. Leadership Commitment\nНе само на думи, а с реални действия и ресурси. Когато CEO-то лично участва в иновационните проекти, те имат 5 пъти по-висок шанс за успех.\n\n2. Change Management\nХората трябва да разберат не само КАКВО се променя, но ЗАЩО. И да имат подкрепа в процеса на адаптация.\n\n3. Quick Wins\nГолемите трансформации се случват чрез малки, последователни победи. Всяка победа гради momentum и увереност.\n\n4. Measurable Results\nКакво точно измервате? Какъв е success criteria? Ако не можете да го измерите, не можете да го управлявате.\n\n5. Learning Culture\nГрешките са неизбежни. Въпросът е дали учите от тях или ги повтаряте.\n\nУспешната иновационна трансформация не е събитие. Тя е процес. И успехът идва не от перфектния план, а от постоянното адаптиране и учене по пътя.\n\nНе се питайте "Имаме ли добра стратегия?". Питайте се "Какво направихме миналата седмица за да я реализираме?"',
+        en: 'I\'ve worked with dozens of companies that have an "innovation strategy". Beautiful presentations, ambitious plans, impressive budgets.\n\nBut after a year? Nothing.\n\nThe problem isn\'t lack of vision. The problem is the execution gap - the difference between what we plan and what we actually achieve.\n\nWhat separates successful from unsuccessful innovation initiatives isn\'t the quality of strategy. It\'s:\n\n1. Leadership Commitment\nNot just in words, but with real actions and resources. When the CEO personally participates in innovation projects, they have 5 times higher chance of success.\n\n2. Change Management\nPeople need to understand not just WHAT is changing, but WHY. And they need support in the adaptation process.\n\n3. Quick Wins\nBig transformations happen through small, consistent victories. Each victory builds momentum and confidence.\n\n4. Measurable Results\nWhat exactly are you measuring? What\'s the success criteria? If you can\'t measure it, you can\'t manage it.\n\n5. Learning Culture\nMistakes are inevitable. The question is whether you learn from them or repeat them.\n\nSuccessful innovation transformation isn\'t an event. It\'s a process. And success comes not from the perfect plan, but from constant adaptation and learning along the way.\n\nDon\'t ask "Do we have a good strategy?". Ask "What did we do last week to implement it?"'
+      },
+      category: 'leadership',
+      date: '2025-10-15',
+      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      id: 5,
+      title: {
+        bg: 'Case Study: Как една средна производствена компания увеличи efficiency с 40% без да купи нова машина',
+        en: 'Case Study: How a Mid-Size Manufacturing Company Increased Efficiency by 40% Without Buying New Equipment'
+      },
+      excerpt: {
+        bg: 'Реална история на трансформация: от съпротива към промяна до измерими резултати за 6 месеца.',
+        en: 'A real transformation story: from resistance to change to measurable results in 6 months.'
+      },
+      content: {
+        bg: 'Миналата година работих с производствена компания с 150 служители в Северна България. Собственикът искаше да инвестира 2 милиона евро в нови машини за да увеличи производителността.\n\nПопитах го: "Колко процента от капацитета на сегашните машини използвате?"\n\n"Не съм сигурен," отговори той.\n\nНаправихме assessment. Резултатът: използваха 35% от капацитета на съществуващото оборудване.\n\nПроблемът не беше в машините. Проблемът беше в:\n• Липса на дигитализация на производствените процеси\n• Неефективна комуникация между отделите\n• Остаряла организация на работния процес\n• Липса на real-time данни за вземане на решения\n\nВместо да купуват нови машини, започнахме трансформационен процес:\n\nМесец 1-2: Assessment и подготовка\n• Детайлно измерване на текущите процеси\n• Идентифициране на bottlenecks\n• Обучение на ключови хора\n\nМесец 3-4: Pilot проект\n• Дигитализация на една производствена линия\n• Внедряване на real-time monitoring\n• Оптимизация на работния процес\n\nМесец 5-6: Scale-up\n• Разширяване на успешните практики\n• Обучение на всички служители\n• Continuous improvement процеси\n\nРезултати след 6 месеца:\n• 40% увеличение на производителността\n• 25% намаление на дефекти\n• 30% подобрение в on-time delivery\n• ROI на инвестицията: 8 месеца\n\nОбща инвестиция: 150,000 евро вместо 2 милиона.\n\nУрокът? Преди да купите нова технология, оптимизирайте това което имате. Резултатите често са по-добри и много по-бързи.',
+        en: 'Last year I worked with a manufacturing company of 150 employees in Northern Bulgaria. The owner wanted to invest 2 million euros in new machines to increase productivity.\n\nI asked him: "What percentage of your current machines\' capacity are you using?"\n\n"I\'m not sure," he replied.\n\nWe did an assessment. Result: they were using 35% of existing equipment capacity.\n\nThe problem wasn\'t the machines. The problem was:\n• Lack of digitalization of manufacturing processes\n• Inefficient communication between departments\n• Outdated work process organization\n• Lack of real-time data for decision making\n\nInstead of buying new machines, we started a transformation process:\n\nMonth 1-2: Assessment and preparation\n• Detailed measurement of current processes\n• Identification of bottlenecks\n• Training of key people\n\nMonth 3-4: Pilot project\n• Digitalization of one production line\n• Implementation of real-time monitoring\n• Work process optimization\n\nMonth 5-6: Scale-up\n• Expansion of successful practices\n• Training of all employees\n• Continuous improvement processes\n\nResults after 6 months:\n• 40% increase in productivity\n• 25% reduction in defects\n• 30% improvement in on-time delivery\n• ROI on investment: 8 months\n\nTotal investment: 150,000 euros instead of 2 million.\n\nThe lesson? Before buying new technology, optimize what you have. Results are often better and much faster.'
+      },
+      category: 'caseStudy',
+      date: '2025-09-20',
+      image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=800&q=80'
     }
   ]);
 
@@ -267,10 +339,10 @@ function CatalystInnovations() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <div className="flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" className="h-10 w-10">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" className="h-10 w-10">
                   <rect x="10" y="10" width="60" height="60" fill="none" stroke="#455a64" strokeWidth="6" rx="4"/>
-                  <path d="M 20 60 L 80 10" stroke="#455a64" strokeWidth="6" strokeLinecap="round"/>
-                  <path d="M 65 10 L 80 10 L 80 25" fill="none" stroke="#455a64" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M 20 60 L 70 20" stroke="#455a64" strokeWidth="6" strokeLinecap="round"/>
+                  <path d="M 55 20 L 70 20 L 70 35" fill="none" stroke="#455a64" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
               <span className="ml-3 text-2xl font-light tracking-wide text-gray-900">CATALYST INNOVATION</span>
@@ -284,7 +356,7 @@ function CatalystInnovations() {
               <button onClick={() => scrollToSection('vision')} className="text-sm font-medium text-gray-600 hover:text-gray-900 transition">{t.nav.vision}</button>
               <button onClick={() => scrollToSection('blog')} className="text-sm font-medium text-gray-600 hover:text-gray-900 transition">{t.nav.blog}</button>
               <button onClick={() => scrollToSection('contact')} className="text-sm font-medium text-gray-600 hover:text-gray-900 transition">{t.nav.contact}</button>
-              <a href="https://linkedin.com/in/galena-schouten" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition">
+              <a href="https://www.linkedin.com/in/galena-schouten" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition">
                 <i data-lucide="linkedin" className="h-5 w-5"></i>
               </a>
               <button onClick={toggleLanguage} className="flex items-center text-gray-600 hover:text-gray-900 transition">
@@ -378,7 +450,7 @@ function CatalystInnovations() {
               
               <div className="border-l-2 border-gray-900 pl-6">
                 <h3 className="text-sm font-medium text-gray-400 mb-2">{t.about.linkedin}</h3>
-                <a href="https://linkedin.com/in/galena-schouten" target="_blank" rel="noopener noreferrer" className="text-gray-900 hover:text-gray-600 transition inline-flex items-center">
+                <a href="https://www.linkedin.com/in/galena-schouten" target="_blank" rel="noopener noreferrer" className="text-gray-900 hover:text-gray-600 transition inline-flex items-center">
                   <i data-lucide="linkedin" className="h-5 w-5 mr-2"></i>
                   {t.about.connect}
                 </a>
@@ -687,7 +759,7 @@ function CatalystInnovations() {
             </div>
             <div className="border-l-2 border-gray-900 pl-6">
               <p className="text-sm text-gray-400 mb-2">{t.contact.linkedin}</p>
-              <a href="https://linkedin.com/in/galena-schouten" target="_blank" rel="noopener noreferrer" className="text-lg text-gray-900 hover:text-gray-600 transition inline-flex items-center">
+              <a href="https://www.linkedin.com/in/galena-schouten" target="_blank" rel="noopener noreferrer" className="text-lg text-gray-900 hover:text-gray-600 transition inline-flex items-center">
                 <i data-lucide="linkedin" className="h-5 w-5 mr-2"></i>
                 {t.contact.connect}
               </a>
@@ -702,10 +774,10 @@ function CatalystInnovations() {
       <footer className="bg-gray-900 text-white py-12 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex items-center justify-center mb-6">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" className="h-10 w-10">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" className="h-10 w-10">
               <rect x="10" y="10" width="60" height="60" fill="none" stroke="#ffffff" strokeWidth="6" rx="4"/>
-              <path d="M 20 60 L 80 10" stroke="#ffffff" strokeWidth="6" strokeLinecap="round"/>
-              <path d="M 65 10 L 80 10 L 80 25" fill="none" stroke="#ffffff" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M 20 60 L 70 20" stroke="#ffffff" strokeWidth="6" strokeLinecap="round"/>
+              <path d="M 55 20 L 70 20 L 70 35" fill="none" stroke="#ffffff" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
             <span className="ml-3 text-xl font-light tracking-wide">CATALYST INNOVATION</span>
           </div>
@@ -720,3 +792,8 @@ function CatalystInnovations() {
 // Render the app
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<CatalystInnovations />);
+                   
+                    
+                    
+               
+     
