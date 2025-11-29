@@ -713,7 +713,7 @@ function CatalystInnovations() {
           <div className="grid md:grid-cols-2 gap-8 text-left mb-12">
             <div className="border-l-2 border-gray-900 pl-6">
               <p className="text-sm text-gray-400 mb-2">{t.contact.email}</p>
-              <p className="text-lg text-gray-900">galena.schouten@catalystinnovations.eu</p>
+              <p className="text-lg text-gray-900">galena.schouten@catalystinnovation.eu</p>
             </div>
             <div className="border-l-2 border-gray-900 pl-6">
               <p className="text-sm text-gray-400 mb-2">{t.contact.phone}</p>
