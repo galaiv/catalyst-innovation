@@ -87,6 +87,114 @@ function CatalystInnovations() {
       category: 'leadership',
       date: '2025-10-15',
       image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      id: 5,
+      title: {
+        bg: 'Времето изтича: Защо производителите в Русе не могат да си позволят да чакат',
+        en: 'The Clock is Ticking: Why Ruse Manufacturers Can\'t Afford to Wait'
+      },
+      excerpt: {
+        bg: 'Производствената картина по коридора на Дунав се трансформира с безпрецедентна скорост.',
+        en: 'The manufacturing landscape along the Danube corridor is transforming at unprecedented speed.'
+      },
+      content: {
+        bg: 'Тест статия 5',
+        en: 'Test article 5'
+      },
+      category: 'industry40',
+      date: '2026-02-05',
+      image: 'https://images.unsplash.com/photo-1565689157206-0fddef7589a2?auto=format&fit=crop&q=80&w=2000'
+    },
+    {
+      id: 6,
+      title: {
+        bg: 'Как да изберете правилния консултант',
+        en: 'How to Choose the Right Consultant'
+      },
+      excerpt: {
+        bg: '70% от проектите за трансформация се провалят.',
+        en: '70% of transformation projects fail.'
+      },
+      content: {
+        bg: 'Тест статия 6',
+        en: 'Test article 6'
+      },
+      category: 'leadership',
+      date: '2026-02-06',
+      image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=2000'
+    },
+    {
+      id: 7,
+      title: {
+        bg: 'ИИ в производството',
+        en: 'AI in Manufacturing'
+      },
+      excerpt: {
+        bg: 'Практически подход към изкуствения интелект.',
+        en: 'Practical approach to artificial intelligence.'
+      },
+      content: {
+        bg: 'Тест статия 7',
+        en: 'Test article 7'
+      },
+      category: 'innovation',
+      date: '2026-02-07',
+      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=2000'
+    },
+    {
+      id: 8,
+      title: {
+        bg: 'Правилото 90%',
+        en: 'The 90% Rule'
+      },
+      excerpt: {
+        bg: 'Технологията е 10%, хората са 90%.',
+        en: 'Technology is 10%, people are 90%.'
+      },
+      content: {
+        bg: 'Тест статия 8',
+        en: 'Test article 8'
+      },
+      category: 'leadership',
+      date: '2026-02-08',
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=2000'
+    },
+    {
+      id: 9,
+      title: {
+        bg: 'Бизнес модел иновации',
+        en: 'Business Model Innovation'
+      },
+      excerpt: {
+        bg: 'Традиционният модел умира.',
+        en: 'Traditional model is dying.'
+      },
+      content: {
+        bg: 'Тест статия 9',
+        en: 'Test article 9'
+      },
+      category: 'innovation',
+      date: '2026-02-09',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2000'
+    },
+    {
+      id: 10,
+      title: {
+        bg: 'Дилемата на Дунав',
+        en: 'The Danube Dilemma'
+      },
+      excerpt: {
+        bg: 'Предимството на Русе ерозира.',
+        en: 'Ruse advantage is eroding.'
+      },
+      content: {
+        bg: 'Тест статия 10',
+        en: 'Test article 10'
+      },
+      category: 'industry40',
+      date: '2026-02-10',
+      image: 'https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?auto=format&fit=crop&q=80&w=2000'
     }
   ]);
 
