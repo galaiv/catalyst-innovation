@@ -1359,7 +1359,7 @@ The Danube flows forward. Your business must too.`
       emailPopup: {
         title: 'Получете достъп до пълните статии',
         subtitle: 'Присъединете се към над 500 производствени лидери, които получават практически прозрения за дигитална трансформация.',
-        bonus: '🎁 Бонус: Изтеглете безплатно нашия "Digital Transformation Readiness Assessment"',
+        bonus: '🎁 Бонус: Безплатна консултация + оценка на готовността ви за Индустрия 4.0',
         emailPlaceholder: 'Вашият имейл адрес',
         button: 'Получете достъп',
         privacy: 'Без спам. Отписване по всяко време.'
@@ -1461,7 +1461,7 @@ The Danube flows forward. Your business must too.`
       emailPopup: {
         title: 'Get Access to Full Articles',
         subtitle: 'Join 500+ manufacturing leaders receiving practical insights on digital transformation.',
-        bonus: '🎁 Bonus: Download our free "Digital Transformation Readiness Assessment"',
+        bonus: '🎁 Free consultation + personalized Industry 4.0 readiness',
         emailPlaceholder: 'Your email address',
         button: 'Get Access',
         privacy: 'No spam. Unsubscribe anytime.'
