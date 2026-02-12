@@ -1921,6 +1921,115 @@ The Danube flows forward. Your business must too.`
           )}
         </div>
       </section>
+# 📧 Mailchimp Newsletter Signup — Ready to Paste into app.jsx
+
+## YOUR MAILCHIMP DETAILS (already filled in):
+- **Action URL:** `https://catalystinnovation.us12.list-manage.com/subscribe/post?u=0fb07686475035f35ed0fa028&id=90ec566c5e&f_id=008ee4e1f0`
+- **Bot field:** `b_0fb07686475035f35ed0fa028_90ec566c5e`
+
+---
+
+## STEP 1: Open your app.jsx on GitHub
+
+1. Go to your GitHub repository
+2. Open **app.jsx**
+3. Click the **pencil icon** (Edit)
+
+---
+
+## STEP 2: Find where to paste
+
+Search for `{/* Contact Section */}` in your code.
+
+**PASTE THE CODE BELOW** right BEFORE that line.
+
+---
+
+## STEP 3: Copy and paste this code
+
+```jsx
+      {/* Newsletter Signup Section */}
+      <section className="py-20 bg-gradient-to-b from-gray-50 to-white px-4">
+        <div className="max-w-2xl mx-auto">
+          <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-12">
+            <div className="text-center mb-8">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-gray-900 rounded-full mb-6">
+                <span className="text-2xl">📧</span>
+              </div>
+              <h3 className="text-3xl font-light mb-3 text-gray-900">
+                {language === 'bg' ? 'Безплатна консултация' : 'Free Consultation'}
+              </h3>
+              <p className="text-gray-500 font-light leading-relaxed">
+                {language === 'bg' 
+                  ? 'Запишете се и получете безплатна 30-минутна консултация за дигитална трансформация на вашата компания.' 
+                  : 'Sign up and get a free 30-minute consultation on digital transformation for your company.'}
+              </p>
+            </div>
+
+            <form 
+              action="https://catalystinnovation.us12.list-manage.com/subscribe/post?u=0fb07686475035f35ed0fa028&id=90ec566c5e&f_id=008ee4e1f0" 
+              method="post" 
+              id="mc-embedded-subscribe-form" 
+              name="mc-embedded-subscribe-form" 
+              className="validate" 
+              target="_blank"
+            >
+              <div className="space-y-4">
+                <div>
+                  <input 
+                    type="email" 
+                    name="EMAIL" 
+                    className="w-full px-5 py-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none text-gray-900 placeholder-gray-400 transition" 
+                    id="mce-EMAIL" 
+                    placeholder={language === 'bg' ? 'Вашият email адрес' : 'Your email address'} 
+                    required 
+                  />
+                </div>
+
+                <div>
+                  <input 
+                    type="text" 
+                    name="FNAME" 
+                    className="w-full px-5 py-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none text-gray-900 placeholder-gray-400 transition" 
+                    id="mce-FNAME" 
+                    placeholder={language === 'bg' ? 'Вашето име' : 'Your name'} 
+                  />
+                </div>
+
+                <div>
+                  <input 
+                    type="text" 
+                    name="COMPANY" 
+                    className="w-full px-5 py-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none text-gray-900 placeholder-gray-400 transition" 
+                    id="mce-MMERGE6" 
+                    placeholder={language === 'bg' ? 'Компания (по избор)' : 'Company (optional)'} 
+                  />
+                </div>
+
+                {/* Anti-spam bot field - DO NOT REMOVE */}
+                <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
+                  <input type="text" name="b_0fb07686475035f35ed0fa028_90ec566c5e" tabIndex="-1" defaultValue="" />
+                </div>
+
+                <button 
+                  type="submit" 
+                  name="subscribe" 
+                  id="mc-embedded-subscribe" 
+                  className="w-full bg-gray-900 text-white px-8 py-4 rounded-xl hover:bg-gray-800 transition-all duration-300 font-light tracking-wider text-sm uppercase"
+                >
+                  {language === 'bg' ? 'Запазете безплатна консултация' : 'Book Free Consultation'}
+                </button>
+              </div>
+            </form>
+
+            <p className="text-xs text-gray-400 text-center mt-6 font-light">
+              {language === 'bg' 
+                ? '🔒 Поверителността ви е важна. Няма да споделяме вашия email.' 
+                : '🔒 Your privacy matters. We will never share your email.'}
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-white px-4">
