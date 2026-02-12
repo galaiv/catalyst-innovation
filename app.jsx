@@ -35,27 +35,7 @@ function CatalystInnovations() {
     }
   };
 
-  const handleEmailSubmit = (e) => {
-    e.preventDefault();
-    if (email && email.includes('@')) {
-      // Store email submission status
-      localStorage.setItem('emailSubmitted', 'true');
-      setEmailSubmitted(true);
-      setShowEmailPopup(false);
-      
-      // Open the article they wanted to read
-      if (pendingArticle) {
-        openArticle(pendingArticle);
-        setPendingArticle(null);
-      }
-      
-      // Here you would normally send the email to your backend/email service
-      console.log('Email submitted:', email);
-      
-      // Reset email field
-      setEmail('');
-    }
-  };
+  
 
   const articles = [
     {
@@ -1489,46 +1469,72 @@ The Danube flows forward. Your business must too.`
   return (
     <div className="min-h-screen bg-white">
       {/* Email Collection Popup */}
+     {/* Email Collection Popup - Connected to Mailchimp */}
       {showEmailPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-          <div className="bg-white max-w-md w-full p-8 relative">
+          <div className="bg-white max-w-md w-full p-8 relative rounded-xl shadow-2xl">
             <button 
-              onClick={() => setShowEmailPopup(false)}
-              className="absolute top-4 right-4 text-gray-400 hover:text-gray-600"
+              onClick={() => { setShowEmailPopup(false); }}
+              className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition"
             >
-              <i data-lucide="x" className="h-6 w-6"></i>
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
             </button>
             
-            <h3 className="text-2xl font-light text-gray-900 mb-4">
-              {t.emailPopup.title}
+            <h3 className="text-2xl font-light text-gray-900 mb-3">
+              {language === 'bg' ? 'Получете достъп до пълните статии' : 'Get Full Article Access'}
             </h3>
-            <p className="text-gray-600 mb-4">
-              {t.emailPopup.subtitle}
+            <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+              {language === 'bg' 
+                ? 'Присъединете се към над 500 производствени лидери, които получават практически прозрения за дигитална трансформация.' 
+                : 'Join 500+ manufacturing leaders receiving practical digital transformation insights.'}
             </p>
-            <p className="text-sm text-gray-500 mb-6">
-              {t.emailPopup.bonus}
-            </p>
+            <div className="bg-amber-50 border-l-4 border-amber-400 p-3 mb-6">
+              <p className="text-sm text-amber-900">
+                {language === 'bg' 
+                  ? '🎁 Бонус: Безплатна консултация + оценка на готовността ви за Индустрия 4.0' 
+                  : '🎁 Bonus: Free consultation + Industry 4.0 readiness assessment'}
+              </p>
+            </div>
             
-            <form onSubmit={handleEmailSubmit}>
+            <form 
+              action="https://catalystinnovation.us12.list-manage.com/subscribe/post?u=0fb07686475035f35ed0fa028&id=90ec566c5e&f_id=008ee4e1f0" 
+              method="post" 
+              target="_blank"
+              onSubmit={() => {
+                localStorage.setItem('emailSubmitted', 'true');
+                setEmailSubmitted(true);
+                setShowEmailPopup(false);
+                if (pendingArticle) {
+                  setTimeout(() => { openArticle(pendingArticle); setPendingArticle(null); }, 500);
+                }
+              }}
+            >
               <input
                 type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder={t.emailPopup.emailPlaceholder}
-                className="w-full px-4 py-3 border border-gray-300 mb-4 focus:outline-none focus:border-gray-900"
+                name="EMAIL"
+                placeholder={language === 'bg' ? 'Вашият имейл адрес' : 'Your email address'}
                 required
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
               />
+
+              {/* Anti-spam bot field - DO NOT REMOVE */}
+              <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
+                <input type="text" name="b_0fb07686475035f35ed0fa028_90ec566c5e" tabIndex="-1" defaultValue="" />
+              </div>
+
               <button
                 type="submit"
-                className="w-full bg-gray-900 text-white py-3 hover:bg-gray-800 transition"
+                className="w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-800 transition font-light tracking-wide"
               >
-                {t.emailPopup.button}
+                {language === 'bg' ? 'Получете достъп' : 'Get Access'}
               </button>
+
+              <p className="text-xs text-gray-400 text-center mt-4">
+                {language === 'bg' ? 'Без спам. Отписване по всяко време.' : 'No spam. Unsubscribe anytime.'}
+              </p>
             </form>
-            
-            <p className="text-xs text-gray-400 text-center mt-4">
-              {t.emailPopup.privacy}
-            </p>
           </div>
         </div>
       )}
