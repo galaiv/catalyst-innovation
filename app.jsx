@@ -7,7 +7,6 @@ function CatalystInnovations() {
   const [selectedArticle, setSelectedArticle] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [showEmailPopup, setShowEmailPopup] = useState(false);
-  const [email, setEmail] = useState('');
   const [emailSubmitted, setEmailSubmitted] = useState(false);
   const [pendingArticle, setPendingArticle] = useState(null);
 
@@ -34,8 +33,6 @@ function CatalystInnovations() {
       openArticle(article);
     }
   };
-
-  
 
   const articles = [
     {
@@ -529,92 +526,29 @@ The manufacturers who will succeed with AI are those who thoughtfully assess val
 - Подкрепа: "Да, внедряваме тази система. ИТ ще се справи."
 - Ангажираност: "Това е стратегически приоритет. Аз лично съм включен."
 
-Ангажираността означава:
-- Видимо участие в внедряването
-- Разпределение на адекватни ресурси
-- Последователно съобщаване
-
 Стълб 2: Преработка на процеса
 
 Фатална грешка: Автоматизиране на съществуващи процеси без да се поставят под въпрос дали са оптимални.
-
-Правилната последователност:
-1. Документирайте текущото състояние
-2. Идентифицирайте болезнените точки
-3. Представете идеално състояние
-4. Проектирайте нов процес
-5. Внедрете технологията
-6. Оптимизирайте непрекъснато
 
 Стълб 3: Управление на промяната
 
 Технологията променя начина, по който хората работят. Без управление на човешкия аспект, приемането се проваля.
 
-Основни елементи:
-- Анализ на заинтересованите страни
-- Комуникационна стратегия
-- Ефективно обучение
-- Подкрепа и коучинг
-
 Стълб 4: Култура на данни
 
 Технологията изисква добри данни. Добрите данни изискват организационна дисциплина.
-
-Изграждане на култура на данни:
-- Мислене за качество на данните
-- Прозрачност като норма
-- Експериментирането се оценява
-- Учене от грешки
 
 Стълб 5: Развитие на способности
 
 Технологията променя необходимите умения.
 
-Подходи:
-- Техническо обучение
-- Нови дефиниции на роли
-- Постепенна отговорност
-- Непрекъснато развитие
-
 ОЦЕНКА НА ГОТОВНОСТТА
 
 Преди голяма инвестиция, оценете:
 
-Готовност на лидерството:
-☐ CEO лично ангажиран
-☐ Висше ръководство съгласувано
-☐ Готовност за инвестиция
-☐ Търпение за 18-36 месеца
-
-Готовност на процесите:
-☐ Процеси документирани
-☐ Възможности идентифицирани
-☐ Готовност за промяна
-☐ Ясна визия
-
-Културна готовност:
-☐ Положително отношение
-☐ История на промени
-☐ Готовност за експериментиране
-☐ Открита комуникация
-
-Готовност на данните:
-☐ Разбиране за важността
-☐ Дисциплина за данни
-☐ Готовност за прозрачност
-☐ Практика на използване
-
 Ако не можете да отметнете 70%, не сте готови. Инвестирайте в изграждане на готовност преди технология.
 
 КРАЙНИЯТ ИЗВОД
-
-Трудната част е подготовката на организацията. Това изисква:
-- Честна оценка
-- Ангажираност на лидерството
-- Преработка на процеса
-- Управление на промяната
-- Културна промяна
-- Изграждане на способности
 
 Компаниите, които инвестират в готовност, постигат 60-80% от стойността. Тези, които пропускат тази стъпка, постигат 20-30%.
 
@@ -634,102 +568,30 @@ Successful technology adoption is:
 - 10% about the technology itself
 - 90% about people, leadership, and organizational culture
 
-The technology is usually the easy part. The hard part is preparing your organization to leverage technology effectively.
-
 THE FIVE PILLARS OF READINESS
 
 Pillar 1: Leadership Commitment
-
-The difference between support and commitment:
-- Support: "Yes, we're implementing this system. IT will handle it."
-- Commitment: "This is strategic priority. I'm personally involved."
-
-Commitment means:
-- Visible involvement in implementation
-- Adequate resource allocation
-- Consistent messaging
+The difference between support and commitment.
 
 Pillar 2: Process Redesign
-
 Fatal mistake: Automating existing processes without questioning whether they're optimal.
 
-The right sequence:
-1. Document current state
-2. Identify pain points
-3. Envision ideal state
-4. Design new process
-5. Implement technology
-6. Optimize continuously
-
 Pillar 3: Change Management
-
 Technology changes how people work. Without managing the human dimension, adoption fails.
 
-Essential elements:
-- Stakeholder analysis
-- Communication strategy
-- Effective training
-- Support and coaching
-
 Pillar 4: Data Culture
-
 Technology requires good data. Good data requires organizational discipline.
 
-Building data culture:
-- Data quality mindset
-- Transparency as normal
-- Experimentation valued
-- Learning from mistakes
-
 Pillar 5: Capability Development
-
 Technology changes needed skills.
-
-Approaches:
-- Technical training
-- New role definitions
-- Progressive responsibility
-- Continuous development
 
 READINESS ASSESSMENT
 
-Before major investment, assess:
-
-Leadership Readiness:
-☐ CEO personally committed
-☐ Senior leadership aligned
-☐ Willingness to invest
-☐ Patience for 18-36 months
-
-Process Readiness:
-☐ Processes documented
-☐ Opportunities identified
-☐ Willingness to challenge
-☐ Clear vision
-
-Cultural Readiness:
-☐ Positive attitude
-☐ Track record of changes
-☐ Willingness to experiment
-☐ Open communication
-
-Data Readiness:
-☐ Understanding of importance
-☐ Data discipline
-☐ Willingness for transparency
-☐ Practice of using data
+Before major investment, assess your leadership, process, cultural, and data readiness.
 
 If you can't check 70%, you're not ready. Invest in building readiness before technology.
 
 THE BOTTOM LINE
-
-The hard part is preparing your organization. This requires:
-- Honest assessment
-- Leadership commitment
-- Process redesign
-- Change management
-- Cultural shift
-- Capability building
 
 Companies that invest in readiness achieve 60-80% of value. Those that skip this step achieve 20-30%.
 
@@ -755,201 +617,13 @@ The choice is yours: €500,000 for unused technology, or €300,000 for technol
 
 Но всяко едно от тези условия се е променило драматично. Традиционният модел на договорно производство умира. Не бавно. Не евентуално. Точно сега.
 
-ЗАЩО ТРАДИЦИОННИТЕ МОДЕЛИ СЕ ПРОВАЛЯТ
-
-Натиск 1: Компресиране на маржа
-- Румънски конкуренти с по-ниски разходи
-- Турски производители с агресивно ценообразуване
-- Автоматизация, правеща разликите в труда по-малко значими
-
-Типична компания, която се радваше на 18-22% марж преди пет години, сега се бори за 10-12%.
-
-Натиск 2: Превръщане в стока
-- Клиентите разглеждат производителите като взаимозаменяеми
-- Процесите се фокусират основно върху цената
-- Дългосрочните партньорства отстъпват
-
-Натиск 3: Миграция на стойността
-Стойността се измества към:
-- Дизайн и инженеринг
-- Марка и маркетинг
-- Следпродажбени услуги
-- Данни и прозрения
-
-Компаниите, които притежават клиентски връзки, улавят 60-70% от печалбите. Производителите получават 10-15%.
-
-Натиск 4: Технологична дисрупция
-- Адитивно производство
-- Автоматизация
-- ИИ и оптимизация
-- Дигитални платформи
-
-ИМПЕРАТИВЪТ ЗА ИНОВАЦИЯ
-
-Не можете да решите проблем с бизнес модела само с оперативни подобрения.
-
-Иновацията на бизнес модела означава преосмисляне:
-- Каква стойност създавате
-- Как я създавате
-- Как я улавяте
-- За кого я създавате
-
-ПЕТ ПЪТЯ ЗА ИНОВАЦИЯ
-
-Път 1: От продукти към решения
-Предоставяй пълни решения, включително услуги, поддръжка и оптимизация.
-
-Улавена стойност:
-- Текущи клиентски връзки
-- По-високи маржове от услуги
-- Предвидими приходи
-
-Път 2: От собственост към достъп
-Клиентите плащат за способност или резултати, не за притежаване на активи.
-
-Улавена стойност:
-- Повтарящи се приходи
-- Контрол върху жизнения цикъл
-- Дълбоки данни
-
-Път 3: От линеен към кръгов
-Проектирай за кръговост, поддържай собственост, улавяй стойност чрез повторна употреба.
-
-Улавена стойност:
-- Намалени материални разходи
-- Нови потоци на приходи
-- Устойчивост
-
-Път 4: От доставчик към партньор
-Стани стратегически партньор в иновацията на клиента.
-
-Улавена стойност:
-- По-високи маржове
-- По-ранно ангажиране
-- По-силни връзки
-
-Път 5: От B2B към B2B2C
-Използвай способности за създаване на марки за крайните пазари.
-
-Улавена стойност:
-- Притежавай клиентски връзки
-- Улавяй дребно продажбени маржове
-- Директна обратна връзка
-
-КРАЙНИЯТ ИЗВОД
-
-Всеки производител се изправя пред избор:
-
-Избор 1: Управлявай спада
-Продължи траекторията, постепенно губейки марж и позиция.
-
-Избор 2: Трансформирай се за оцеляване
-Отговори при кризисни условия. Труд но. Успех: нисък.
-
-Избор 3: Трансформирай се за лидерство
-Действай сега от позиция на сила. Предизвикателно, но постижимо.
-
-Бъдещето на вашата компания зависи от това.`,
+Бъдещето на вашата компания зависи от избора, който правите днес.`,
         
         en: `For decades, the business model for Bulgarian manufacturers was straightforward: produce quality products at competitive prices for Western European customers.
 
 But every single one of these conditions has changed dramatically. The traditional contract manufacturing business model is dying. Not slowly. Not eventually. Right now.
 
-WHY TRADITIONAL MODELS ARE FAILING
-
-Pressure 1: Margin Compression
-- Romanian competitors with lower costs
-- Turkish manufacturers with aggressive pricing
-- Automation making labor differences less significant
-
-A typical company that enjoyed 18-22% margins five years ago now struggles for 10-12%.
-
-Pressure 2: Commoditization
-- Customers view manufacturers as interchangeable
-- Processes focus primarily on price
-- Long-term partnerships give way to transactions
-
-Pressure 3: Value Migration
-Value is shifting toward:
-- Design and engineering
-- Brand and marketing
-- After-sales services
-- Data and insights
-
-Companies that own customer relationships capture 60-70% of profits. Manufacturers get 10-15%.
-
-Pressure 4: Technological Disruption
-- Additive manufacturing
-- Automation
-- AI and optimization
-- Digital platforms
-
-THE INNOVATION IMPERATIVE
-
-You cannot solve a business model problem with operational improvements alone.
-
-Business model innovation means rethinking:
-- What value you create
-- How you create it
-- How you capture it
-- Who you create it for
-
-FIVE INNOVATION PATHS
-
-Path 1: From Products to Solutions
-Provide complete solutions including services, support, and optimization.
-
-Value captured:
-- Ongoing customer relationships
-- Higher margins on services
-- Predictable revenue
-
-Path 2: From Ownership to Access
-Customers pay for capability or outcomes, not asset ownership.
-
-Value captured:
-- Recurring revenue
-- Lifecycle control
-- Deep data
-
-Path 3: From Linear to Circular
-Design for circularity, maintain ownership, capture value through reuse.
-
-Value captured:
-- Reduced material costs
-- New revenue streams
-- Sustainability
-
-Path 4: From Provider to Partner
-Become strategic partner in customer innovation.
-
-Value captured:
-- Higher margins
-- Earlier engagement
-- Stronger relationships
-
-Path 5: From B2B to B2B2C
-Leverage capabilities to create branded offerings for end markets.
-
-Value captured:
-- Own customer relationships
-- Capture retail margins
-- Direct feedback
-
-THE BOTTOM LINE
-
-Every manufacturer faces a choice:
-
-Choice 1: Manage Decline
-Continue trajectory, gradually losing margin and position.
-
-Choice 2: Transform for Survival
-Respond under crisis conditions. Difficult. Success: low.
-
-Choice 3: Transform for Leadership
-Act now from position of strength. Challenging but achievable.
-
-Your company's future depends on it.`
+Your company's future depends on the choice you make today.`
       },
       category: 'innovation',
       date: '2026-02-09',
@@ -973,126 +647,6 @@ Your company's future depends on it.`
 
 Неудобният отговор: То ерозира. Не катастрофално, но стабилно и ускорявайки се.
 
-ПРЕДУПРЕДИТЕЛНИТЕ ЗНАЦИ
-
-Знак 1: Притискането на маржа
-"Преди пет години котирахме с 18-20% маржове. Сега се борим за 10-12%. Клиентите искат 5-7% намаление годишно."
-
-Знак 2: Неизползването
-Колко производители работят при:
-- Една смяна вместо две
-- 60-70% капацитет вместо 85-90%
-- Намаляване на извънредната работа
-
-Знак 3: Оттичане на таланти
-Младите инженери не искат да останат. Те виждат:
-- По-високи заплати в София (30-40% повече)
-- По-добри възможности в Западна Европа
-- По-модерни среди
-
-Знак 4: Промяна в отношенията
-Клиентите се движат към:
-- Транзакционни връзки
-- Чести повторни наддавания
-- Намаляване на размерите
-- Пренасяне на производството
-
-Знак 5: Колебание при инвестициите
-Въпреки стимули, много се колебаят да инвестират в:
-- Автоматизация
-- Дигитална инфраструктура
-- Нови способности
-- Модернизация
-
-КОНКУРЕНЦИЯТА НЕ СТОИ
-
-Румънска конкуренция:
-- Тежко инвестиране със структурни фондове
-- 10-15% по-ниски разходи
-- По-модерни съоръжения
-
-Сръбско възраждане:
-- Големи чуждестранни инвестиции
-- Модерни съоръжения
-- Растящи способности
-
-Турска експанзия:
-- Масивни инвестиции
-- Агресивно ценообразуване
-- Европейска експанзия
-
-ПРЕДИМСТВАТА НА РУСЕ
-
-Въпреки предизвикателствата:
-
-Предимство 1: Индустриална екосистема
-- Концентрация на компании
-- Мрежи на доставчици
-- Технически институции
-
-Предимство 2: Достъп до пазара
-- Членство в ЕС
-- Близост до пазари
-- Дунав за логистика
-
-Предимство 3: Инженерен талант
-- Технически университети
-- По-ниски разходи
-- Многоезична работна сила
-
-Предимство 4: Гъвкавост
-- Бързо адаптиране
-- Директни връзки
-- Персонализиране
-
-Предимство 5: Качество
-- Сравнимо със Западна Европа
-- По-ниско ценообразуване
-- Доказана надеждност
-
-ПЪТНАТА КАРТА
-
-Стъпка 1: Честна оценка (Месец 1)
-- Къде сме уязвими?
-- Какви са предимствата?
-- Кои сегменти предлагат перспективи?
-
-Стъпка 2: Дефинирай посока (Месец 2)
-- Кои клиенти да приоритизираш?
-- Какви способности да изградиш?
-- Как да се диференцираш?
-
-Стъпка 3: Ангажимент (Месец 2-3)
-- Изгради консенсус
-- Ангажирай ресурси
-- Подготви се за 3-5 години
-
-Стъпка 4: Бързи победи (Месец 3-6)
-- Видими подобрения
-- Изгради инерция
-- Тествай стратегия
-
-Стъпка 5: Основи (Месец 6-18)
-- Развий способности
-- Внедри технология
-- Преработи процеси
-
-Стъпка 6: Мащабирай (Месец 18-36)
-- Разшири инициативи
-- Задълбочи връзки
-- Усъвършенствай модел
-
-ИЗБОРЪТ
-
-Избор 1: Управлявай спада
-Продължи траекторията, губейки позиция.
-
-Избор 2: Трансформирай за оцеляване
-Отговори при криза. Труд но. Успех: нисък.
-
-Избор 3: Трансформирай за лидерство
-Действай сега от сила. Предизвикателно, постижимо.
-
 Дунав тече напред. Вашият бизнес също трябва.`,
         
         en: `For decades, Ruse manufacturers have enjoyed strategic location on the Danube, lower costs than Western Europe, skilled workforce.
@@ -1100,126 +654,6 @@ Your company's future depends on it.`
 But ask yourself honestly: Is Ruse's advantage growing or eroding?
 
 The uncomfortable answer: It's eroding. Not catastrophically, but steadily and accelerating.
-
-THE WARNING SIGNS
-
-Sign 1: Margin Squeeze
-"Five years ago we quoted 18-20% margins. Now we fight for 10-12%. Customers demand 5-7% annual reductions."
-
-Sign 2: Underutilization
-How many manufacturers run at:
-- Single shift instead of two
-- 60-70% capacity instead of 85-90%
-- Cutting overtime
-
-Sign 3: Talent Drain
-Young engineers don't want to stay. They see:
-- Higher salaries in Sofia (30-40% more)
-- Better opportunities in Western Europe
-- More modern environments
-
-Sign 4: Relationship Shift
-Customers moving toward:
-- Transactional relationships
-- Frequent rebidding
-- Cutting sizes
-- Bringing production in-house
-
-Sign 5: Investment Hesitation
-Despite incentives, many hesitate to invest in:
-- Automation
-- Digital infrastructure
-- New capabilities
-- Modernization
-
-COMPETITION ISN'T STANDING STILL
-
-Romanian Competition:
-- Heavy investment with structural funds
-- 10-15% lower costs
-- More modern facilities
-
-Serbian Renaissance:
-- Major foreign investments
-- Modern facilities
-- Growing capabilities
-
-Turkish Expansion:
-- Massive investments
-- Aggressive pricing
-- European expansion
-
-RUSE'S ADVANTAGES
-
-Despite challenges:
-
-Advantage 1: Industrial Ecosystem
-- Company concentration
-- Supplier networks
-- Technical institutions
-
-Advantage 2: Market Access
-- EU membership
-- Market proximity
-- Danube logistics
-
-Advantage 3: Engineering Talent
-- Technical universities
-- Lower costs
-- Multilingual workforce
-
-Advantage 4: Flexibility
-- Quick adaptation
-- Direct relationships
-- Customization
-
-Advantage 5: Quality
-- Comparable to Western Europe
-- Lower pricing
-- Proven reliability
-
-THE ROADMAP
-
-Step 1: Honest Assessment (Month 1)
-- Where are we vulnerable?
-- What are advantages?
-- Which segments offer prospects?
-
-Step 2: Define Direction (Month 2)
-- Which customers to prioritize?
-- What capabilities to build?
-- How to differentiate?
-
-Step 3: Commitment (Month 2-3)
-- Build consensus
-- Commit resources
-- Prepare for 3-5 years
-
-Step 4: Quick Wins (Month 3-6)
-- Visible improvements
-- Build momentum
-- Test strategy
-
-Step 5: Foundations (Month 6-18)
-- Develop capabilities
-- Implement technology
-- Redesign processes
-
-Step 6: Scale (Month 18-36)
-- Expand initiatives
-- Deepen relationships
-- Refine model
-
-THE CHOICE
-
-Choice 1: Manage Decline
-Continue trajectory, losing position.
-
-Choice 2: Transform for Survival
-Respond in crisis. Difficult. Success: low.
-
-Choice 3: Transform for Leadership
-Act now from strength. Challenging, achievable.
 
 The Danube flows forward. Your business must too.`
       },
@@ -1241,12 +675,15 @@ The Danube flows forward. Your business must too.`
 
   const openArticle = (article) => {
     setSelectedArticle(article);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'instant' });
   };
 
   const closeArticle = () => {
     setSelectedArticle(null);
-    scrollToSection('blog');
+    setTimeout(() => {
+      const blogEl = document.getElementById('blog');
+      if (blogEl) blogEl.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
   };
 
   const filteredArticles = selectedCategory === 'all' 
@@ -1259,49 +696,26 @@ The Danube flows forward. Your business must too.`
 
   const content = {
     bg: {
-      nav: {
-        home: 'Начало',
-        about: 'За мен',
-        services: 'Услуги',
-        vision: 'Визия',
-        blog: 'Блог',
-        contact: 'Контакт'
-      },
-      hero: {
-        title: 'Трансформираме',
-        title2: 'иновациите в реалност',
-        subtitle: 'Консултантски услуги за лидерство и дигитална трансформация',
-        cta: 'СВЪРЖЕТЕ СЕ С НАС'
-      },
+      nav: { home: 'Начало', about: 'За мен', services: 'Услуги', vision: 'Визия', blog: 'Блог', contact: 'Контакт' },
+      hero: { title: 'Трансформираме', title2: 'иновациите в реалност', subtitle: 'Консултантски услуги за лидерство и дигитална трансформация', cta: 'СВЪРЖЕТЕ СЕ С НАС' },
       about: {
         title: 'Галена Схаутен',
         p1: 'Иновационен консултант и предприемач, учредяваща консултантска фирма в Русе, фокусирана върху дигитална трансформация и стратегическо иновационно лидерство за производствени компании.',
         p2: 'След международна кариера в модната индустрия, завърших икономическо образование и MBA със специализация Innovation Management в SUPSI, Швейцария.',
         p3: 'Работила съм по консултантски проекти в областта на Индустрия 4.0, circular economy и организационна трансформация.',
         p4: 'Моят подход комбинира технологична готовност с cultural change management и Open Innovation стратегии за устойчив бизнес успех.',
-        education: 'ОБРАЗОВАНИЕ',
-        mba: 'MBA Innovation Management',
-        location: 'SUPSI, Швейцария',
-        economics: 'Икономика и Управление',
-        uniMilano: 'Università degli Studi di Milano-Bicocca',
-        linkedin: 'LINKEDIN',
-        connect: 'Свържете се с мен'
+        education: 'ОБРАЗОВАНИЕ', mba: 'MBA Innovation Management', location: 'SUPSI, Швейцария',
+        economics: 'Икономика и Управление', uniMilano: 'Università degli Studi di Milano-Bicocca',
+        linkedin: 'LINKEDIN', connect: 'Свържете се с мен'
       },
       services: {
-        title: 'Услуги',
-        subtitle: 'Холистичен подход към иновационната трансформация',
-        s1: 'Лидерска трансформация',
-        s1desc: 'Подготовка на лидери за управление на иновационни процеси',
-        s2: 'Стратегическа иновация',
-        s2desc: 'Персонализирани стратегии базирани на готовността на организацията',
-        s3: 'Change Management',
-        s3desc: 'Управление на културата и подготовка на екипите за промяна',
-        s4: 'Open Innovation',
-        s4desc: 'Създаване на иновационни екосистеми чрез collaboration',
-        s5: 'Industry 4.0',
-        s5desc: 'Оценка на готовността и roadmap за дигитална трансформация',
-        s6: 'Мрежово интегриране',
-        s6desc: 'Свързване с международни мрежи за високи постижения'
+        title: 'Услуги', subtitle: 'Холистичен подход към иновационната трансформация',
+        s1: 'Лидерска трансформация', s1desc: 'Подготовка на лидери за управление на иновационни процеси',
+        s2: 'Стратегическа иновация', s2desc: 'Персонализирани стратегии базирани на готовността на организацията',
+        s3: 'Change Management', s3desc: 'Управление на културата и подготовка на екипите за промяна',
+        s4: 'Open Innovation', s4desc: 'Създаване на иновационни екосистеми чрез collaboration',
+        s5: 'Industry 4.0', s5desc: 'Оценка на готовността и roadmap за дигитална трансформация',
+        s6: 'Мрежово интегриране', s6desc: 'Свързване с международни мрежи за високи постижения'
       },
       vision: {
         title: 'Визия за индустрията',
@@ -1317,97 +731,48 @@ The Danube flows forward. Your business must too.`
       manifesto: {
         p1: 'Success е 10% технологии, 90% хора, лидерство и култура.',
         p2: 'Обичам предизвикателствата. Не се отказвам лесно. И знам как да превръщам vision в reality.',
-        p3: 'Ако вашата компания иска:',
-        point1: 'Да инвестира умно, не просто много',
-        point2: 'Да трансформира хора, не само процеси',
-        point3: 'Да създаде sustainable competitive advantage',
-        p4: 'Нека говорим.',
-        p5: 'Иновациите не чакат. И аз също.'
+        p3: 'Ако вашата компания иска:', point1: 'Да инвестира умно, не просто много',
+        point2: 'Да трансформира хора, не само процеси', point3: 'Да създаде sustainable competitive advantage',
+        p4: 'Нека говорим.', p5: 'Иновациите не чакат. И аз също.'
       },
       blog: {
-        title: 'Блог',
-        subtitle: 'Мисли и прозрения за иновациите и трансформацията',
-        readMore: 'Прочети повече',
-        backToBlog: 'Назад към блога',
-        noArticles: 'Скоро ще публикувам първата си статия. Следете за актуализации.',
-        categories: 'Категории',
-        all: 'Всички',
-        innovation: 'Иновации',
-        leadership: 'Лидерство',
-        industry40: 'Индустрия 4.0'
-      },
-      emailPopup: {
-        title: 'Получете достъп до пълните статии',
-        subtitle: 'Присъединете се към над 500 производствени лидери, които получават практически прозрения за дигитална трансформация.',
-        bonus: '🎁 Бонус: Безплатна консултация + оценка на готовността ви за Индустрия 4.0',
-        emailPlaceholder: 'Вашият имейл адрес',
-        button: 'Получете достъп',
-        privacy: 'Без спам. Отписване по всяко време.'
+        title: 'Блог', subtitle: 'Мисли и прозрения за иновациите и трансформацията',
+        readMore: 'Прочети повече', backToBlog: 'Назад към блога',
+        noArticles: 'Скоро ще публикувам първата си статия.', categories: 'Категории',
+        all: 'Всички', innovation: 'Иновации', leadership: 'Лидерство', industry40: 'Индустрия 4.0'
       },
       contact: {
-        title: 'Контакт',
-        subtitle: 'Готови за трансформация? Нека работим заедно.',
-        email: 'EMAIL',
-        phone: 'ТЕЛЕФОН',
-        location: 'ЛОКАЦИЯ',
-        locationValue: 'Русе, България',
-        linkedin: 'LINKEDIN',
-        connect: 'Свържете се',
+        title: 'Контакт', subtitle: 'Готови за трансформация? Нека работим заедно.',
+        email: 'EMAIL', phone: 'ТЕЛЕФОН', location: 'ЛОКАЦИЯ', locationValue: 'Русе, България',
+        linkedin: 'LINKEDIN', connect: 'Свържете се',
         consultation: 'Предлагам безплатна първична консултация за оценка на готовността на вашата компания за иновации.'
       },
-      footer: {
-        tagline: 'Трансформираме иновациите в реалност',
-        copyright: '© 2026 Catalyst Innovation. Всички права запазени.'
-      }
+      footer: { tagline: 'Трансформираме иновациите в реалност', copyright: '© 2026 Catalyst Innovation. Всички права запазени.' }
     },
     en: {
-      nav: {
-        home: 'Home',
-        about: 'About',
-        services: 'Services',
-        vision: 'Vision',
-        blog: 'Blog',
-        contact: 'Contact'
-      },
-      hero: {
-        title: 'Transforming',
-        title2: 'innovations into reality',
-        subtitle: 'Consulting services for leadership and digital transformation',
-        cta: 'GET IN TOUCH'
-      },
+      nav: { home: 'Home', about: 'About', services: 'Services', vision: 'Vision', blog: 'Blog', contact: 'Contact' },
+      hero: { title: 'Transforming', title2: 'innovations into reality', subtitle: 'Consulting services for leadership and digital transformation', cta: 'GET IN TOUCH' },
       about: {
         title: 'Galena Schouten',
         p1: 'Innovation consultant and entrepreneur, establishing a consulting firm in Ruse, focused on digital transformation and strategic innovation leadership for manufacturing companies.',
         p2: 'Following an international career in the fashion industry, she completed economics education at UNIVERSITÀ DEGLI STUDI DI MILANO-BICOCCA and MBA with specialization in Innovation Management at SUPSI, Switzerland.',
         p3: 'She has worked on consulting projects in Industry 4.0, circular economy and organizational transformation.',
         p4: 'Her approach combines technological readiness with cultural change management and Open Innovation strategies for sustainable business success.',
-        education: 'EDUCATION',
-        mba: 'MBA Innovation Management',
-        location: 'SUPSI, Switzerland',
-        economics: 'Economics and Management',
-        uniMilano: 'Università degli Studi di Milano-Bicocca',
-        linkedin: 'LINKEDIN',
-        connect: 'Connect with me'
+        education: 'EDUCATION', mba: 'MBA Innovation Management', location: 'SUPSI, Switzerland',
+        economics: 'Economics and Management', uniMilano: 'Università degli Studi di Milano-Bicocca',
+        linkedin: 'LINKEDIN', connect: 'Connect with me'
       },
       services: {
-        title: 'Services',
-        subtitle: 'Holistic approach to innovation transformation',
-        s1: 'Leadership Transformation',
-        s1desc: 'Preparing leaders to manage innovation processes',
-        s2: 'Strategic Innovation',
-        s2desc: 'Customized strategies based on organizational readiness',
-        s3: 'Change Management',
-        s3desc: 'Managing culture and preparing teams for change',
-        s4: 'Open Innovation',
-        s4desc: 'Creating innovation ecosystems through collaboration',
-        s5: 'Industry 4.0',
-        s5desc: 'Readiness assessment and roadmap for digital transformation',
-        s6: 'Network Integration',
-        s6desc: 'Connecting with international networks for high performance'
+        title: 'Services', subtitle: 'Holistic approach to innovation transformation',
+        s1: 'Leadership Transformation', s1desc: 'Preparing leaders to manage innovation processes',
+        s2: 'Strategic Innovation', s2desc: 'Customized strategies based on organizational readiness',
+        s3: 'Change Management', s3desc: 'Managing culture and preparing teams for change',
+        s4: 'Open Innovation', s4desc: 'Creating innovation ecosystems through collaboration',
+        s5: 'Industry 4.0', s5desc: 'Readiness assessment and roadmap for digital transformation',
+        s6: 'Network Integration', s6desc: 'Connecting with international networks for high performance'
       },
       vision: {
-        title: 'Vision for Industry',
-        problem: 'The Challenge',
+        title: 'Vision for Industry', problem: 'The Challenge',
         problemText: 'Companies invest in new technologies but use only 20-30% of capacity. Because technology is the easy part - people, culture and leadership are the real challenge.',
         solution: 'The Solution',
         solutionText: 'Creating an innovation ecosystem where companies collaborate for mutual benefit through Open Innovation model.',
@@ -1419,48 +784,23 @@ The Danube flows forward. Your business must too.`
       manifesto: {
         p1: 'Success is 10% technology, 90% people, leadership and culture.',
         p2: 'I love challenges. I don\'t give up easily. And I know how to turn vision into reality.',
-        p3: 'If your company wants to:',
-        point1: 'Invest smartly, not just heavily',
-        point2: 'Transform people, not just processes',
-        point3: 'Create sustainable competitive advantage',
-        p4: 'Let\'s talk.',
-        p5: 'Innovation doesn\'t wait. Neither do I.'
+        p3: 'If your company wants to:', point1: 'Invest smartly, not just heavily',
+        point2: 'Transform people, not just processes', point3: 'Create sustainable competitive advantage',
+        p4: 'Let\'s talk.', p5: 'Innovation doesn\'t wait. Neither do I.'
       },
       blog: {
-        title: 'Blog',
-        subtitle: 'Thoughts and insights on innovation and transformation',
-        readMore: 'Read more',
-        backToBlog: 'Back to blog',
-        noArticles: 'Coming soon. Stay tuned for my first article.',
-        categories: 'Categories',
-        all: 'All',
-        innovation: 'Innovation',
-        leadership: 'Leadership',
-        industry40: 'Industry 4.0'
-      },
-      emailPopup: {
-        title: 'Get Access to Full Articles',
-        subtitle: 'Join 500+ manufacturing leaders receiving practical insights on digital transformation.',
-        bonus: '🎁 Free consultation + personalized Industry 4.0 readiness',
-        emailPlaceholder: 'Your email address',
-        button: 'Get Access',
-        privacy: 'No spam. Unsubscribe anytime.'
+        title: 'Blog', subtitle: 'Thoughts and insights on innovation and transformation',
+        readMore: 'Read more', backToBlog: 'Back to blog',
+        noArticles: 'Coming soon.', categories: 'Categories',
+        all: 'All', innovation: 'Innovation', leadership: 'Leadership', industry40: 'Industry 4.0'
       },
       contact: {
-        title: 'Contact',
-        subtitle: 'Ready for transformation? Let\'s work together.',
-        email: 'EMAIL',
-        phone: 'PHONE',
-        location: 'LOCATION',
-        locationValue: 'Ruse, Bulgaria',
-        linkedin: 'LINKEDIN',
-        connect: 'Connect',
+        title: 'Contact', subtitle: 'Ready for transformation? Let\'s work together.',
+        email: 'EMAIL', phone: 'PHONE', location: 'LOCATION', locationValue: 'Ruse, Bulgaria',
+        linkedin: 'LINKEDIN', connect: 'Connect',
         consultation: 'I offer a free initial consultation to assess your company\'s readiness for innovation.'
       },
-      footer: {
-        tagline: 'Transforming innovations into reality',
-        copyright: '© 2026 Catalyst Innovation. All rights reserved.'
-      }
+      footer: { tagline: 'Transforming innovations into reality', copyright: '© 2026 Catalyst Innovation. All rights reserved.' }
     }
   };
 
@@ -1468,8 +808,7 @@ The Danube flows forward. Your business must too.`
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Email Collection Popup */}
-     {/* Email Collection Popup - Connected to Mailchimp */}
+      {/* Email Collection Popup - Connected to Mailchimp */}
       {showEmailPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
           <div className="bg-white max-w-md w-full p-8 relative rounded-xl shadow-2xl">
@@ -1518,19 +857,12 @@ The Danube flows forward. Your business must too.`
                 required
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
               />
-
-              {/* Anti-spam bot field - DO NOT REMOVE */}
               <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
                 <input type="text" name="b_0fb07686475035f35ed0fa028_90ec566c5e" tabIndex="-1" defaultValue="" />
               </div>
-
-              <button
-                type="submit"
-                className="w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-800 transition font-light tracking-wide"
-              >
+              <button type="submit" className="w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-800 transition font-light tracking-wide">
                 {language === 'bg' ? 'Получете достъп' : 'Get Access'}
               </button>
-
               <p className="text-xs text-gray-400 text-center mt-4">
                 {language === 'bg' ? 'Без спам. Отписване по всяко време.' : 'No spam. Unsubscribe anytime.'}
               </p>
@@ -1547,8 +879,6 @@ The Danube flows forward. Your business must too.`
               <img src="./logo.jpg" alt="Catalyst Innovation Logo" className="h-12 w-auto" />
               <span className="ml-3 text-2xl font-light tracking-wide text-gray-900">CATALYST INNOVATION</span>
             </div>
-            
-            {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-10">
               <button onClick={() => scrollToSection('home')} className="text-sm font-medium text-gray-600 hover:text-gray-900 transition">{t.nav.home}</button>
               <button onClick={() => scrollToSection('about')} className="text-sm font-medium text-gray-600 hover:text-gray-900 transition">{t.nav.about}</button>
@@ -1564,20 +894,14 @@ The Danube flows forward. Your business must too.`
                 <span className="text-sm font-medium">{language === 'bg' ? 'EN' : 'BG'}</span>
               </button>
             </div>
-
-            {/* Mobile menu button */}
             <div className="md:hidden flex items-center space-x-4">
-              <button onClick={toggleLanguage} className="text-gray-600">
-                <i data-lucide="globe" className="h-5 w-5"></i>
-              </button>
+              <button onClick={toggleLanguage} className="text-gray-600"><i data-lucide="globe" className="h-5 w-5"></i></button>
               <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-gray-700">
                 {isMenuOpen ? <i data-lucide="x" className="h-6 w-6"></i> : <i data-lucide="menu" className="h-6 w-6"></i>}
               </button>
             </div>
           </div>
         </div>
-
-        {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden bg-white border-t">
             <div className="px-2 pt-2 pb-3 space-y-1">
@@ -1592,503 +916,279 @@ The Danube flows forward. Your business must too.`
         )}
       </nav>
 
-      {/* Hero Section */}
-      <section id="home" className="pt-32 pb-20 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h1 className="text-5xl md:text-7xl font-light text-gray-900 mb-6 tracking-tight leading-tight">
-              {t.hero.title}<br />{t.hero.title2}
-            </h1>
-            <p className="text-xl md:text-2xl text-gray-500 font-light max-w-3xl mx-auto leading-relaxed">
-              {t.hero.subtitle}
-            </p>
-          </div>
-          
-          {/* Industry 4.0 Image */}
-          <div className="mb-16">
-            <img 
-              src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1200&q=80" 
-              alt="Industry 4.0" 
-              className="w-full h-96 object-cover grayscale rounded-sm"
-            />
-          </div>
-
-          <div className="text-center">
-            <button 
-              onClick={() => scrollToSection('contact')}
-              className="bg-gray-900 text-white px-10 py-4 text-sm font-medium tracking-wide hover:bg-gray-800 transition inline-flex items-center"
-            >
-              {t.hero.cta}
-              <i data-lucide="chevron-right" className="ml-2 h-4 w-4"></i>
+      {/* Show article if selected, otherwise show full page */}
+      {selectedArticle ? (
+        <div className="pt-24 pb-20 px-4">
+          <div className="max-w-4xl mx-auto">
+            <button onClick={closeArticle} className="text-gray-600 hover:text-gray-900 mb-8 inline-flex items-center">
+              <i data-lucide="chevron-right" className="h-4 w-4 rotate-180 mr-2"></i>
+              {t.blog.backToBlog}
             </button>
-          </div>
-        </div>
-      </section>
-
-      {/* About Section */}
-      <section id="about" className="py-20 bg-gray-50 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-16 items-start">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-8">{t.about.title}</h2>
-              <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
-                <p>{t.about.p1}</p>
-                <p>{t.about.p2}</p>
-                <p>{t.about.p3}</p>
-                <p>{t.about.p4}</p>
-              </div>
+            <img src={selectedArticle.image} alt={selectedArticle.title[language]} className="w-full h-96 object-cover grayscale mb-8" />
+            <div className="mb-6">
+              <span className="text-sm text-gray-400 uppercase tracking-wide">
+                {new Date(selectedArticle.date).toLocaleDateString(language === 'bg' ? 'bg-BG' : 'en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+              </span>
             </div>
-            
-            <div className="space-y-8">
-              <div className="border-l-2 border-gray-900 pl-6">
-                <h3 className="text-sm font-medium text-gray-400 mb-2">{t.about.education}</h3>
-                <p className="text-xl text-gray-900 mb-1">{t.about.mba}</p>
-                <p className="text-gray-600 mb-4">{t.about.location}</p>
-                <p className="text-xl text-gray-900 mb-1">{t.about.economics}</p>
-                <p className="text-gray-600">{t.about.uniMilano}</p>
-              </div>
-              
-              <div className="border-l-2 border-gray-900 pl-6">
-                <h3 className="text-sm font-medium text-gray-400 mb-2">{t.about.linkedin}</h3>
-                <a href="https://www.linkedin.com/in/galena-schouten" target="_blank" rel="noopener noreferrer" className="text-gray-900 hover:text-gray-600 transition inline-flex items-center">
-                  <i data-lucide="linkedin" className="h-5 w-5 mr-2"></i>
-                  {t.about.connect}
-                </a>
-              </div>
+            <h1 className="text-4xl md:text-5xl font-light text-gray-900 mb-8 leading-tight">{selectedArticle.title[language]}</h1>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-lg text-gray-600 leading-relaxed whitespace-pre-line">{selectedArticle.content[language]}</p>
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Services Section */}
-      <section id="services" className="py-20 bg-white px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">{t.services.title}</h2>
-            <p className="text-xl text-gray-500 max-w-2xl mx-auto">
-              {t.services.subtitle}
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="group">
-              <div className="mb-4">
-                <i data-lucide="users" className="h-10 w-10 text-gray-400 group-hover:text-gray-900 transition"></i>
-              </div>
-              <h3 className="text-xl font-medium text-gray-900 mb-3">{t.services.s1}</h3>
-              <p className="text-gray-600 leading-relaxed">{t.services.s1desc}</p>
-            </div>
-
-            <div className="group">
-              <div className="mb-4">
-                <i data-lucide="target" className="h-10 w-10 text-gray-400 group-hover:text-gray-900 transition"></i>
-              </div>
-              <h3 className="text-xl font-medium text-gray-900 mb-3">{t.services.s2}</h3>
-              <p className="text-gray-600 leading-relaxed">{t.services.s2desc}</p>
-            </div>
-
-            <div className="group">
-              <div className="mb-4">
-                <i data-lucide="trending-up" className="h-10 w-10 text-gray-400 group-hover:text-gray-900 transition"></i>
-              </div>
-              <h3 className="text-xl font-medium text-gray-900 mb-3">{t.services.s3}</h3>
-              <p className="text-gray-600 leading-relaxed">{t.services.s3desc}</p>
-            </div>
-
-            <div className="group">
-              <div className="mb-4">
-                <i data-lucide="award" className="h-10 w-10 text-gray-400 group-hover:text-gray-900 transition"></i>
-              </div>
-              <h3 className="text-xl font-medium text-gray-900 mb-3">{t.services.s4}</h3>
-              <p className="text-gray-600 leading-relaxed">{t.services.s4desc}</p>
-            </div>
-
-            <div className="group">
-              <div className="mb-4">
-                <i data-lucide="book-open" className="h-10 w-10 text-gray-400 group-hover:text-gray-900 transition"></i>
-              </div>
-              <h3 className="text-xl font-medium text-gray-900 mb-3">{t.services.s5}</h3>
-              <p className="text-gray-600 leading-relaxed">{t.services.s5desc}</p>
-            </div>
-
-            <div className="group">
-              <div className="mb-4">
-                <i data-lucide="users" className="h-10 w-10 text-gray-400 group-hover:text-gray-900 transition"></i>
-              </div>
-              <h3 className="text-xl font-medium text-gray-900 mb-3">{t.services.s6}</h3>
-              <p className="text-gray-600 leading-relaxed">{t.services.s6desc}</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Vision Section */}
-      <section id="vision" className="py-20 bg-gray-50 px-4">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-12 text-center">{t.vision.title}</h2>
-          
-          <div className="space-y-12">
-            <div className="border-l-2 border-gray-900 pl-8">
-              <h3 className="text-2xl font-light text-gray-900 mb-4">{t.vision.problem}</h3>
-              <p className="text-lg text-gray-600 leading-relaxed">{t.vision.problemText}</p>
-            </div>
-
-            <div className="border-l-2 border-gray-900 pl-8">
-              <h3 className="text-2xl font-light text-gray-900 mb-4">{t.vision.solution}</h3>
-              <p className="text-lg text-gray-600 leading-relaxed mb-6">{t.vision.solutionText}</p>
-              <ul className="space-y-3 text-gray-600">
-                <li className="flex items-start">
-                  <div className="h-1.5 w-1.5 bg-gray-900 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <span>{t.vision.point1}</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="h-1.5 w-1.5 bg-gray-900 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <span>{t.vision.point2}</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="h-1.5 w-1.5 bg-gray-900 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <span>{t.vision.point3}</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-gray-900 text-white p-10">
-              <p className="text-xl font-light mb-6 italic">{t.vision.quote}</p>
-              <div className="space-y-4 text-lg">
-                <p className="font-medium">{t.manifesto.p1}</p>
-                <p>{t.manifesto.p2}</p>
-                <p className="font-medium mt-6">{t.manifesto.p3}</p>
-                <ul className="space-y-2 ml-6">
-                  <li className="flex items-start">
-                    <div className="h-1.5 w-1.5 bg-white rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span>{t.manifesto.point1}</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="h-1.5 w-1.5 bg-white rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span>{t.manifesto.point2}</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="h-1.5 w-1.5 bg-white rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span>{t.manifesto.point3}</span>
-                  </li>
-                </ul>
-                <p className="font-medium mt-6">{t.manifesto.p4}</p>
-                <p className="italic">{t.manifesto.p5}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Blog Section */}
-      <section id="blog" className="py-20 bg-white px-4">
-        <div className="max-w-6xl mx-auto">
-          {selectedArticle ? (
-            /* Article Detail View */
-            <div>
-              <button 
-                onClick={closeArticle}
-                className="text-gray-600 hover:text-gray-900 mb-8 inline-flex items-center"
-              >
-                <i data-lucide="chevron-right" className="h-4 w-4 rotate-180 mr-2"></i>
-                {t.blog.backToBlog}
-              </button>
-              
-              <article className="max-w-4xl mx-auto">
-                <img 
-                  src={selectedArticle.image} 
-                  alt={selectedArticle.title[language]}
-                  className="w-full h-96 object-cover grayscale mb-8"
-                />
-                
-                <div className="mb-6">
-                  <span className="text-sm text-gray-400 uppercase tracking-wide">
-                    {new Date(selectedArticle.date).toLocaleDateString(language === 'bg' ? 'bg-BG' : 'en-US', { 
-                      year: 'numeric', 
-                      month: 'long', 
-                      day: 'numeric' 
-                    })}
-                  </span>
-                </div>
-                
-                <h1 className="text-4xl md:text-5xl font-light text-gray-900 mb-8 leading-tight">
-                  {selectedArticle.title[language]}
+      ) : (
+        <>
+          {/* Hero Section */}
+          <section id="home" className="pt-32 pb-20 px-4">
+            <div className="max-w-6xl mx-auto">
+              <div className="text-center mb-16">
+                <h1 className="text-5xl md:text-7xl font-light text-gray-900 mb-6 tracking-tight leading-tight">
+                  {t.hero.title}<br />{t.hero.title2}
                 </h1>
-                
-                <div className="prose prose-lg max-w-none">
-                  <p className="text-lg text-gray-600 leading-relaxed whitespace-pre-line">
-                    {selectedArticle.content[language]}
-                  </p>
-                </div>
-              </article>
+                <p className="text-xl md:text-2xl text-gray-500 font-light max-w-3xl mx-auto leading-relaxed">{t.hero.subtitle}</p>
+              </div>
+              <div className="mb-16">
+                <img src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1200&q=80" alt="Industry 4.0" className="w-full h-96 object-cover grayscale rounded-sm" />
+              </div>
+              <div className="text-center">
+                <button onClick={() => scrollToSection('contact')} className="bg-gray-900 text-white px-10 py-4 text-sm font-medium tracking-wide hover:bg-gray-800 transition inline-flex items-center">
+                  {t.hero.cta}
+                  <i data-lucide="chevron-right" className="ml-2 h-4 w-4"></i>
+                </button>
+              </div>
             </div>
-          ) : (
-            /* Blog List View */
-            <div>
+          </section>
+
+          {/* About Section */}
+          <section id="about" className="py-20 bg-gray-50 px-4">
+            <div className="max-w-6xl mx-auto">
+              <div className="grid md:grid-cols-2 gap-16 items-start">
+                <div>
+                  <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-8">{t.about.title}</h2>
+                  <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
+                    <p>{t.about.p1}</p><p>{t.about.p2}</p><p>{t.about.p3}</p><p>{t.about.p4}</p>
+                  </div>
+                </div>
+                <div className="space-y-8">
+                  <div className="border-l-2 border-gray-900 pl-6">
+                    <h3 className="text-sm font-medium text-gray-400 mb-2">{t.about.education}</h3>
+                    <p className="text-xl text-gray-900 mb-1">{t.about.mba}</p>
+                    <p className="text-gray-600 mb-4">{t.about.location}</p>
+                    <p className="text-xl text-gray-900 mb-1">{t.about.economics}</p>
+                    <p className="text-gray-600">{t.about.uniMilano}</p>
+                  </div>
+                  <div className="border-l-2 border-gray-900 pl-6">
+                    <h3 className="text-sm font-medium text-gray-400 mb-2">{t.about.linkedin}</h3>
+                    <a href="https://www.linkedin.com/in/galena-schouten" target="_blank" rel="noopener noreferrer" className="text-gray-900 hover:text-gray-600 transition inline-flex items-center">
+                      <i data-lucide="linkedin" className="h-5 w-5 mr-2"></i>{t.about.connect}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Services Section */}
+          <section id="services" className="py-20 bg-white px-4">
+            <div className="max-w-6xl mx-auto">
+              <div className="text-center mb-16">
+                <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">{t.services.title}</h2>
+                <p className="text-xl text-gray-500 max-w-2xl mx-auto">{t.services.subtitle}</p>
+              </div>
+              <div className="grid md:grid-cols-3 gap-8">
+                {[
+                  { icon: 'users', title: t.services.s1, desc: t.services.s1desc },
+                  { icon: 'target', title: t.services.s2, desc: t.services.s2desc },
+                  { icon: 'trending-up', title: t.services.s3, desc: t.services.s3desc },
+                  { icon: 'award', title: t.services.s4, desc: t.services.s4desc },
+                  { icon: 'book-open', title: t.services.s5, desc: t.services.s5desc },
+                  { icon: 'users', title: t.services.s6, desc: t.services.s6desc }
+                ].map((s, i) => (
+                  <div key={i} className="group">
+                    <div className="mb-4"><i data-lucide={s.icon} className="h-10 w-10 text-gray-400 group-hover:text-gray-900 transition"></i></div>
+                    <h3 className="text-xl font-medium text-gray-900 mb-3">{s.title}</h3>
+                    <p className="text-gray-600 leading-relaxed">{s.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Vision Section */}
+          <section id="vision" className="py-20 bg-gray-50 px-4">
+            <div className="max-w-5xl mx-auto">
+              <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-12 text-center">{t.vision.title}</h2>
+              <div className="space-y-12">
+                <div className="border-l-2 border-gray-900 pl-8">
+                  <h3 className="text-2xl font-light text-gray-900 mb-4">{t.vision.problem}</h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">{t.vision.problemText}</p>
+                </div>
+                <div className="border-l-2 border-gray-900 pl-8">
+                  <h3 className="text-2xl font-light text-gray-900 mb-4">{t.vision.solution}</h3>
+                  <p className="text-lg text-gray-600 leading-relaxed mb-6">{t.vision.solutionText}</p>
+                  <ul className="space-y-3 text-gray-600">
+                    {[t.vision.point1, t.vision.point2, t.vision.point3].map((p, i) => (
+                      <li key={i} className="flex items-start">
+                        <div className="h-1.5 w-1.5 bg-gray-900 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                        <span>{p}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="bg-gray-900 text-white p-10">
+                  <p className="text-xl font-light mb-6 italic">{t.vision.quote}</p>
+                  <div className="space-y-4 text-lg">
+                    <p className="font-medium">{t.manifesto.p1}</p>
+                    <p>{t.manifesto.p2}</p>
+                    <p className="font-medium mt-6">{t.manifesto.p3}</p>
+                    <ul className="space-y-2 ml-6">
+                      {[t.manifesto.point1, t.manifesto.point2, t.manifesto.point3].map((p, i) => (
+                        <li key={i} className="flex items-start">
+                          <div className="h-1.5 w-1.5 bg-white rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                          <span>{p}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    <p className="font-medium mt-6">{t.manifesto.p4}</p>
+                    <p className="italic">{t.manifesto.p5}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Blog Section */}
+          <section id="blog" className="py-20 bg-white px-4">
+            <div className="max-w-6xl mx-auto">
               <div className="text-center mb-12">
                 <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">{t.blog.title}</h2>
-                <p className="text-xl text-gray-500 max-w-2xl mx-auto">
-                  {t.blog.subtitle}
-                </p>
+                <p className="text-xl text-gray-500 max-w-2xl mx-auto">{t.blog.subtitle}</p>
               </div>
-
-              {/* Category Filter */}
               <div className="flex justify-center mb-12 flex-wrap gap-3">
-                <button
-                  onClick={() => setSelectedCategory('all')}
-                  className={`px-6 py-2 text-sm font-medium transition ${
-                    selectedCategory === 'all'
-                      ? 'bg-gray-900 text-white'
-                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                  }`}
-                >
-                  {t.blog.all}
-                </button>
-                <button
-                  onClick={() => setSelectedCategory('innovation')}
-                  className={`px-6 py-2 text-sm font-medium transition ${
-                    selectedCategory === 'innovation'
-                      ? 'bg-gray-900 text-white'
-                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                  }`}
-                >
-                  {t.blog.innovation}
-                </button>
-                <button
-                  onClick={() => setSelectedCategory('leadership')}
-                  className={`px-6 py-2 text-sm font-medium transition ${
-                    selectedCategory === 'leadership'
-                      ? 'bg-gray-900 text-white'
-                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                  }`}
-                >
-                  {t.blog.leadership}
-                </button>
-                <button
-                  onClick={() => setSelectedCategory('industry40')}
-                  className={`px-6 py-2 text-sm font-medium transition ${
-                    selectedCategory === 'industry40'
-                      ? 'bg-gray-900 text-white'
-                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                  }`}
-                >
-                  {t.blog.industry40}
-                </button>
+                {['all', 'innovation', 'leadership', 'industry40'].map(cat => (
+                  <button key={cat} onClick={() => setSelectedCategory(cat)}
+                    className={`px-6 py-2 text-sm font-medium transition ${selectedCategory === cat ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}>
+                    {t.blog[cat]}
+                  </button>
+                ))}
               </div>
-
-              {/* Articles Grid */}
               {filteredArticles.length > 0 ? (
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {filteredArticles.map((article) => (
-                    <article 
-                      key={article.id}
-                      className="group cursor-pointer"
-                      onClick={() => handleArticleClick(article)}
-                    >
+                    <article key={article.id} className="group cursor-pointer" onClick={() => handleArticleClick(article)}>
                       <div className="mb-4 overflow-hidden">
-                        <img 
-                          src={article.image} 
-                          alt={article.title[language]}
-                          className="w-full h-64 object-cover grayscale group-hover:scale-105 transition duration-300"
-                        />
+                        <img src={article.image} alt={article.title[language]} className="w-full h-64 object-cover grayscale group-hover:scale-105 transition duration-300" />
                       </div>
-                      
                       <div className="mb-2">
                         <span className="text-xs text-gray-400 uppercase tracking-wide">
-                          {new Date(article.date).toLocaleDateString(language === 'bg' ? 'bg-BG' : 'en-US', { 
-                            year: 'numeric', 
-                            month: 'long', 
-                            day: 'numeric' 
-                          })}
+                          {new Date(article.date).toLocaleDateString(language === 'bg' ? 'bg-BG' : 'en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
                         </span>
                       </div>
-                      
-                      <h3 className="text-xl font-medium text-gray-900 mb-3 group-hover:text-gray-600 transition">
-                        {article.title[language]}
-                      </h3>
-                      
-                      <p className="text-gray-600 leading-relaxed mb-4">
-                        {article.excerpt[language]}
-                      </p>
-                      
+                      <h3 className="text-xl font-medium text-gray-900 mb-3 group-hover:text-gray-600 transition">{article.title[language]}</h3>
+                      <p className="text-gray-600 leading-relaxed mb-4">{article.excerpt[language]}</p>
                       <span className="text-sm font-medium text-gray-900 group-hover:text-gray-600 transition inline-flex items-center">
-                        {t.blog.readMore}
-                        <i data-lucide="chevron-right" className="h-4 w-4 ml-1"></i>
+                        {t.blog.readMore}<i data-lucide="chevron-right" className="h-4 w-4 ml-1"></i>
                       </span>
                     </article>
                   ))}
                 </div>
               ) : (
-                <div className="text-center py-16">
-                  <p className="text-xl text-gray-500">{t.blog.noArticles}</p>
-                </div>
+                <div className="text-center py-16"><p className="text-xl text-gray-500">{t.blog.noArticles}</p></div>
               )}
             </div>
-          )}
-        </div>
-      </section>
-# 📧 Mailchimp Newsletter Signup — Ready to Paste into app.jsx
+          </section>
 
-## YOUR MAILCHIMP DETAILS (already filled in):
-- **Action URL:** `https://catalystinnovation.us12.list-manage.com/subscribe/post?u=0fb07686475035f35ed0fa028&id=90ec566c5e&f_id=008ee4e1f0`
-- **Bot field:** `b_0fb07686475035f35ed0fa028_90ec566c5e`
-
----
-
-## STEP 1: Open your app.jsx on GitHub
-
-1. Go to your GitHub repository
-2. Open **app.jsx**
-3. Click the **pencil icon** (Edit)
-
----
-
-## STEP 2: Find where to paste
-
-Search for `{/* Contact Section */}` in your code.
-
-**PASTE THE CODE BELOW** right BEFORE that line.
-
----
-
-## STEP 3: Copy and paste this code
-
-```jsx
-      {/* Newsletter Signup Section */}
-      <section className="py-20 bg-gradient-to-b from-gray-50 to-white px-4">
-        <div className="max-w-2xl mx-auto">
-          <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-12">
-            <div className="text-center mb-8">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-gray-900 rounded-full mb-6">
-                <span className="text-2xl">📧</span>
-              </div>
-              <h3 className="text-3xl font-light mb-3 text-gray-900">
-                {language === 'bg' ? 'Безплатна консултация' : 'Free Consultation'}
-              </h3>
-              <p className="text-gray-500 font-light leading-relaxed">
-                {language === 'bg' 
-                  ? 'Запишете се и получете безплатна 30-минутна консултация за дигитална трансформация на вашата компания.' 
-                  : 'Sign up and get a free 30-minute consultation on digital transformation for your company.'}
-              </p>
-            </div>
-
-            <form 
-              action="https://catalystinnovation.us12.list-manage.com/subscribe/post?u=0fb07686475035f35ed0fa028&id=90ec566c5e&f_id=008ee4e1f0" 
-              method="post" 
-              id="mc-embedded-subscribe-form" 
-              name="mc-embedded-subscribe-form" 
-              className="validate" 
-              target="_blank"
-            >
-              <div className="space-y-4">
-                <div>
-                  <input 
-                    type="email" 
-                    name="EMAIL" 
-                    className="w-full px-5 py-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none text-gray-900 placeholder-gray-400 transition" 
-                    id="mce-EMAIL" 
-                    placeholder={language === 'bg' ? 'Вашият email адрес' : 'Your email address'} 
-                    required 
-                  />
+          {/* Newsletter Signup Section - Connected to Mailchimp */}
+          <section className="py-20 bg-gradient-to-b from-gray-50 to-white px-4">
+            <div className="max-w-2xl mx-auto">
+              <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-12">
+                <div className="text-center mb-8">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-gray-900 rounded-full mb-6">
+                    <span className="text-2xl">📧</span>
+                  </div>
+                  <h3 className="text-3xl font-light mb-3 text-gray-900">
+                    {language === 'bg' ? 'Безплатна консултация' : 'Free Consultation'}
+                  </h3>
+                  <p className="text-gray-500 font-light leading-relaxed">
+                    {language === 'bg' 
+                      ? 'Запишете се и получете безплатна 30-минутна консултация за дигитална трансформация на вашата компания.' 
+                      : 'Sign up and get a free 30-minute consultation on digital transformation for your company.'}
+                  </p>
                 </div>
-
-                <div>
-                  <input 
-                    type="text" 
-                    name="FNAME" 
-                    className="w-full px-5 py-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none text-gray-900 placeholder-gray-400 transition" 
-                    id="mce-FNAME" 
-                    placeholder={language === 'bg' ? 'Вашето име' : 'Your name'} 
-                  />
-                </div>
-
-                <div>
-                  <input 
-                    type="text" 
-                    name="COMPANY" 
-                    className="w-full px-5 py-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none text-gray-900 placeholder-gray-400 transition" 
-                    id="mce-MMERGE6" 
-                    placeholder={language === 'bg' ? 'Компания (по избор)' : 'Company (optional)'} 
-                  />
-                </div>
-
-                {/* Anti-spam bot field - DO NOT REMOVE */}
-                <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
-                  <input type="text" name="b_0fb07686475035f35ed0fa028_90ec566c5e" tabIndex="-1" defaultValue="" />
-                </div>
-
-                <button 
-                  type="submit" 
-                  name="subscribe" 
-                  id="mc-embedded-subscribe" 
-                  className="w-full bg-gray-900 text-white px-8 py-4 rounded-xl hover:bg-gray-800 transition-all duration-300 font-light tracking-wider text-sm uppercase"
+                <form 
+                  action="https://catalystinnovation.us12.list-manage.com/subscribe/post?u=0fb07686475035f35ed0fa028&id=90ec566c5e&f_id=008ee4e1f0" 
+                  method="post" 
+                  target="_blank"
                 >
-                  {language === 'bg' ? 'Запазете безплатна консултация' : 'Book Free Consultation'}
-                </button>
+                  <div className="space-y-4">
+                    <input type="email" name="EMAIL" className="w-full px-5 py-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none text-gray-900 placeholder-gray-400 transition" placeholder={language === 'bg' ? 'Вашият email адрес' : 'Your email address'} required />
+                    <input type="text" name="FNAME" className="w-full px-5 py-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none text-gray-900 placeholder-gray-400 transition" placeholder={language === 'bg' ? 'Вашето име' : 'Your name'} />
+                    <input type="text" name="COMPANY" className="w-full px-5 py-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none text-gray-900 placeholder-gray-400 transition" id="mce-MMERGE6" placeholder={language === 'bg' ? 'Компания (по избор)' : 'Company (optional)'} />
+                    <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
+                      <input type="text" name="b_0fb07686475035f35ed0fa028_90ec566c5e" tabIndex="-1" defaultValue="" />
+                    </div>
+                    <button type="submit" className="w-full bg-gray-900 text-white px-8 py-4 rounded-xl hover:bg-gray-800 transition-all duration-300 font-light tracking-wider text-sm uppercase">
+                      {language === 'bg' ? 'Запазете безплатна консултация' : 'Book Free Consultation'}
+                    </button>
+                  </div>
+                </form>
+                <p className="text-xs text-gray-400 text-center mt-6 font-light">
+                  {language === 'bg' ? '🔒 Поверителността ви е важна. Няма да споделяме вашия email.' : '🔒 Your privacy matters. We will never share your email.'}
+                </p>
               </div>
-            </form>
-
-            <p className="text-xs text-gray-400 text-center mt-6 font-light">
-              {language === 'bg' 
-                ? '🔒 Поверителността ви е важна. Няма да споделяме вашия email.' 
-                : '🔒 Your privacy matters. We will never share your email.'}
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section id="contact" className="py-20 bg-white px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">{t.contact.title}</h2>
-          <p className="text-xl text-gray-500 mb-12">{t.contact.subtitle}</p>
-          
-          <div className="grid md:grid-cols-2 gap-8 text-left mb-12">
-            <div className="border-l-2 border-gray-900 pl-6">
-              <p className="text-sm text-gray-400 mb-2">{t.contact.email}</p>
-              <p className="text-lg text-gray-900">galena.schouten@catalystinnovation.eu</p>
             </div>
-            <div className="border-l-2 border-gray-900 pl-6">
-              <p className="text-sm text-gray-400 mb-2">{t.contact.phone}</p>
-              <p className="text-lg text-gray-900">+359 877 200 991</p>
-            </div>
-            <div className="border-l-2 border-gray-900 pl-6">
-              <p className="text-sm text-gray-400 mb-2">{t.contact.location}</p>
-              <p className="text-lg text-gray-900">{t.contact.locationValue}</p>
-            </div>
-            <div className="border-l-2 border-gray-900 pl-6">
-              <p className="text-sm text-gray-400 mb-2">{t.contact.linkedin}</p>
-              <a href="https://www.linkedin.com/in/galena-schouten" target="_blank" rel="noopener noreferrer" className="text-lg text-gray-900 hover:text-gray-600 transition inline-flex items-center">
-                <i data-lucide="linkedin" className="h-5 w-5 mr-2"></i>
-                {t.contact.connect}
-              </a>
-            </div>
-          </div>
+          </section>
 
-          <p className="text-gray-600">{t.contact.consultation}</p>
-        </div>
-      </section>
+          {/* Contact Section */}
+          <section id="contact" className="py-20 bg-white px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">{t.contact.title}</h2>
+              <p className="text-xl text-gray-500 mb-12">{t.contact.subtitle}</p>
+              <div className="grid md:grid-cols-2 gap-8 text-left mb-12">
+                <div className="border-l-2 border-gray-900 pl-6">
+                  <p className="text-sm text-gray-400 mb-2">{t.contact.email}</p>
+                  <p className="text-lg text-gray-900">galena.schouten@catalystinnovation.eu</p>
+                </div>
+                <div className="border-l-2 border-gray-900 pl-6">
+                  <p className="text-sm text-gray-400 mb-2">{t.contact.phone}</p>
+                  <p className="text-lg text-gray-900">+359 877 200 991</p>
+                </div>
+                <div className="border-l-2 border-gray-900 pl-6">
+                  <p className="text-sm text-gray-400 mb-2">{t.contact.location}</p>
+                  <p className="text-lg text-gray-900">{t.contact.locationValue}</p>
+                </div>
+                <div className="border-l-2 border-gray-900 pl-6">
+                  <p className="text-sm text-gray-400 mb-2">{t.contact.linkedin}</p>
+                  <a href="https://www.linkedin.com/in/galena-schouten" target="_blank" rel="noopener noreferrer" className="text-lg text-gray-900 hover:text-gray-600 transition inline-flex items-center">
+                    <i data-lucide="linkedin" className="h-5 w-5 mr-2"></i>{t.contact.connect}
+                  </a>
+                </div>
+              </div>
+              <p className="text-gray-600">{t.contact.consultation}</p>
+            </div>
+          </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <div className="flex items-center justify-center mb-6">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" className="h-12 w-auto">
-              <rect x="10" y="20" width="60" height="60" fill="none" stroke="#ffffff" strokeWidth="5" rx="3"/>
-              <path d="M 20 70 L 60 30" stroke="#ffffff" strokeWidth="5" strokeLinecap="round"/>
-              <path d="M 48 30 L 60 30 L 60 42" fill="none" stroke="#ffffff" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
-              <text x="85" y="50" fill="#ffffff" fontSize="24" fontWeight="600" fontFamily="Arial, sans-serif">CATALYST</text>
-              <text x="85" y="72" fill="#ffffff" fontSize="24" fontWeight="300" fontFamily="Arial, sans-serif">INNOVATION</text>
-            </svg>
-          </div>
-          <p className="text-gray-400 mb-4 font-light">{t.footer.tagline}</p>
-          <p className="text-gray-600 text-sm">{t.footer.copyright}</p>
-        </div>
-      </footer>
+          {/* Footer */}
+          <footer className="bg-gray-900 text-white py-12 px-4">
+            <div className="max-w-6xl mx-auto text-center">
+              <div className="flex items-center justify-center mb-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" className="h-12 w-auto">
+                  <rect x="10" y="20" width="60" height="60" fill="none" stroke="#ffffff" strokeWidth="5" rx="3"/>
+                  <path d="M 20 70 L 60 30" stroke="#ffffff" strokeWidth="5" strokeLinecap="round"/>
+                  <path d="M 48 30 L 60 30 L 60 42" fill="none" stroke="#ffffff" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <text x="85" y="50" fill="#ffffff" fontSize="24" fontWeight="600" fontFamily="Arial, sans-serif">CATALYST</text>
+                  <text x="85" y="72" fill="#ffffff" fontSize="24" fontWeight="300" fontFamily="Arial, sans-serif">INNOVATION</text>
+                </svg>
+              </div>
+              <p className="text-gray-400 mb-4 font-light">{t.footer.tagline}</p>
+              <p className="text-gray-600 text-sm">{t.footer.copyright}</p>
+            </div>
+          </footer>
+        </>
+      )}
     </div>
   );
 }
 
-// Render the app
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<CatalystInnovations />);
